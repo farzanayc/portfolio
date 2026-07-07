@@ -1,0 +1,32 @@
+.timeline {
+  position: relative;
+  padding-left: var(--space-4);
+  border-left: 2px solid var(--color-line);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: var(--space-5);
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: calc(-1 * var(--space-4) - 5px);
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-amber);
+  border: 2px solid var(--color-paper);
+}
+
+.timeline-org {
+  color: var(--color-teal);
+  font-weight: 500;
+  margin-bottom: var(--space-1);
+}

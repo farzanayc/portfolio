@@ -1,0 +1,57 @@
+.case-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--color-paper-raised);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  min-height: 220px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.case-card:hover {
+  border-color: var(--color-ink);
+  transform: translateY(-2px);
+}
+
+.case-card:hover .case-card-link {
+  color: var(--color-teal);
+}
+
+.case-card-index {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-amber);
+}
+
+.case-card h3 {
+  margin-top: var(--space-2);
+  font-size: 1.3rem;
+}
+
+.case-card p {
+  margin-bottom: var(--space-2);
+}
+
+.case-card-link {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-ink);
+}
+
+/* Featured tile spans two columns on larger screens — the "signature" layout move */
+.case-card-featured {
+  grid-column: span 2;
+  min-height: 280px;
+}
+
+.case-card-featured h3 {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 700px) {
+  .case-card-featured {
+    grid-column: span 1;
+  }
+}
