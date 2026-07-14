@@ -4,33 +4,54 @@ import site from "../data/site";
 import "./Resume.css";
 
 const experience = [
+    {
+        year: "2024 — Present",
+        role: "Lead Product Designer",
+        org: "Michigan Open UX Associate Program",
+        description:
+            "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
+    },
+    {
+        year: "2024 — Present",
+        role: "Lead Product Designer",
+        org: "Michigan Open UX Associate Program",
+        description:
+            "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
+    },
+    {
+        year: "2024 — Present",
+        role: "Lead Product Designer",
+        org: "Michigan Open UX Associate Program",
+        description:
+            "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
+    },
   {
-    year: "2024 — Present",
-    role: "Lead Product Designer",
-    org: "Northwind Travel",
+    year: "2024",
+    role: "UX Researcher and Designer",
+    org: "Michigan Open UX Associate Program",
     description:
       "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
   },
   {
-    year: "2022 — 2024",
-    role: "Product Designer",
-    org: "Ledger Finance",
+    year: "2023",
+    role: "UX Researcher and Designer",
+    org: "Michigan Open UX Fellowship",
     description:
       "Designed the expense-approval and reporting tools used by finance teams at 200+ companies.",
   },
   {
-    year: "2020 — 2022",
-    role: "UX Designer",
-    org: "Greenhouse Co.",
+    year: "2020 — 2021",
+    role: "Tutor",
+    org: "America Reads",
     description:
-      "Led onboarding and lifecycle design for a DTC subscription product, from quiz flow to retention emails.",
+      "Designed and implemented lesson plans for 40+ elementary school students in the Ann Arbor and Detroit public school districts through hour-long sessions.",
   },
   {
-    year: "2018 — 2020",
-    role: "Junior Designer",
-    org: "Studio Signal",
+    year: "2018 — 2019",
+    role: "Research Assistant",
+    org: "University of Michigan Institute for Social Research",
     description:
-      "Supported interaction design and prototyping across client projects spanning fintech, health, and logistics.",
+      "Supported research analyzing 800+ surveys to study how demographics and social identities influence voting issues.",
   },
 ];
 
