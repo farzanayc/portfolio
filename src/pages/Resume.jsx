@@ -5,23 +5,30 @@ import "./Resume.css";
 
 const experience = [
     {
-        year: "2024 — Present",
-        role: "Lead Product Designer",
-        org: "Michigan Open UX Associate Program",
+        year: "2026",
+        role: "Product Designer and Consultant",
+        org: "University of Michigan School of Nursing",
         description:
             "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
     },
     {
-        year: "2024 — Present",
-        role: "Lead Product Designer",
-        org: "Michigan Open UX Associate Program",
+        year: "2026",
+        role: "Lead Product Researcher and Designer",
+        org: "General Motors",
         description:
             "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
     },
     {
-        year: "2024 — Present",
-        role: "Lead Product Designer",
-        org: "Michigan Open UX Associate Program",
+        year: "2025",
+        role: "UX Researcher and Consultant",
+        org: "Reveal Global Consulting",
+        description:
+            "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
+    },
+    {
+        year: "2024",
+        role: "UX Designer",
+        org: "Michigan Ross Business Tech Innovation Jam",
         description:
             "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
     },
@@ -39,6 +46,13 @@ const experience = [
     description:
       "Designed the expense-approval and reporting tools used by finance teams at 200+ companies.",
   },
+    {
+        year: "2022-Present",
+        role: "Medical Assistant",
+        org: "University of Michigan Rogel Cancer Center",
+        description:
+            "Designed the expense-approval and reporting tools used by finance teams at 200+ companies.",
+    },
   {
     year: "2020 — 2021",
     role: "Tutor",
