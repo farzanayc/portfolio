@@ -1,57 +1,109 @@
 .case-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: var(--color-paper-raised);
-  border: 1px solid var(--color-line);
-  border-radius: var(--radius);
-  padding: var(--space-3);
-  min-height: 220px;
-  transition: border-color 0.15s ease, transform 0.15s ease;
+    display: flex;
+    align-items: stretch;
+    gap: var(--space-4);
+    border-radius: var(--radius);
+    padding: var(--space-4);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 0 0 rgba(20, 26, 33, 0);
 }
 
 .case-card:hover {
-  border-color: var(--color-ink);
-  transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(20, 26, 33, 0.08);
 }
 
-.case-card:hover .case-card-link {
-  color: var(--color-teal);
+/* Monochrome background scale — cycles through 4 neutral tones so cards
+   read as distinct without introducing extra hues or borders. */
+.case-card:nth-child(4n + 1) {
+    background: #f2f3f4;
+}
+.case-card:nth-child(4n + 2) {
+    background: #e9ebec;
+}
+.case-card:nth-child(4n + 3) {
+    background: #dfe2e4;
+}
+.case-card:nth-child(4n + 4) {
+    background: #d5d9db;
 }
 
-.case-card-index {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--color-amber);
+.case-card-text {
+    flex: 1 1 55%;
+    display: flex;
+    flex-direction: column;
 }
 
-.case-card h3 {
-  margin-top: var(--space-2);
-  font-size: 1.3rem;
+.case-card-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--space-1);
 }
 
-.case-card p {
-  margin-bottom: var(--space-2);
+.case-card-text > p {
+    margin-bottom: var(--space-3);
+}
+
+.case-card-meta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-2) var(--space-3);
+    margin: 0 0 var(--space-3);
+}
+
+.case-card-meta dt {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-muted);
+    margin-bottom: 0.2rem;
+}
+
+.case-card-meta dd {
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .case-card-link {
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  color: var(--color-ink);
+    margin-top: auto;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-ink);
 }
 
-/* Featured tile spans two columns on larger screens — the "signature" layout move */
-.case-card-featured {
-  grid-column: span 2;
-  min-height: 280px;
+.case-card:hover .case-card-link {
+    color: var(--color-teal);
 }
 
-.case-card-featured h3 {
-  font-size: 1.8rem;
+.case-card-media {
+    flex: 1 1 45%;
+    border-radius: var(--radius);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(20, 26, 33, 0.06);
+    min-height: 180px;
+}
+
+.case-card-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.case-card-media-placeholder {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--color-muted);
 }
 
 @media (max-width: 700px) {
-  .case-card-featured {
-    grid-column: span 1;
-  }
+    .case-card {
+        flex-direction: column;
+    }
+    .case-card-meta {
+        grid-template-columns: 1fr 1fr;
+    }
 }
