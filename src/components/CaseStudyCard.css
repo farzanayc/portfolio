@@ -16,16 +16,17 @@
 /* Monochrome background scale — cycles through 4 neutral tones so cards
    read as distinct without introducing extra hues or borders. */
 .case-card:nth-child(4n + 1) {
-    background: #f2f3f4;
+    background: #EEDDB0;
 }
 .case-card:nth-child(4n + 2) {
-    background: #e9ebec;
+    background: #EEDDB0;
 }
 .case-card:nth-child(4n + 3) {
-    background: #dfe2e4;
+    background: #EEDDB0
+;
 }
 .case-card:nth-child(4n + 4) {
-    background: #d5d9db;
+    background: #EEDDB0;
 }
 
 .case-card-text {
