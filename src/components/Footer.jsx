@@ -20,9 +20,8 @@ export default function Footer() {
             href={site.resumeUrl}
             target="_blank"
             rel="noreferrer"
-            className="btn"
           >
-            Resume ↗
+            Resume
           </a>
         </div>
       </div>
