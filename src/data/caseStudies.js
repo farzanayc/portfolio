@@ -5,16 +5,16 @@
 // or set it to an image path/URL once you have one (e.g. "/images/wayfinder.jpg").
 const caseStudies = [
     {
-        slug: "wayfinder",
-        title: "Wayfinder",
-        subtitle: "Redesigning in-airport navigation for a major carrier",
+        slug: "a-guide-to-adult-day-services-in-michigan",
+        title: "A Guide to Adult Day Services in Michigan",
+        subtitle: "Cultivating an online hub of Michigan Adult Day Services for caregivers. ",
         year: "2025",
-        role: "Lead Product Designer",
-        tools: "Figma, Maze, ProtoPie",
+        role: "UX Researcher and Designer, Product Manager",
+        tools: "Figma, Miro, Google Doc, Google Sheets, Zoom",
         duration: "14 weeks",
-        outcomeShort: "31% fewer missed connections",
-        team: "2 designers, 1 researcher",
-        image: null,
+        outcomeShort: "$30K grant secured, website in development",
+        team: "2 UX designers, 2 UX researchers",
+        image: process.env.PUBLIC_URL + "/images/ads-mockup.png",
         featured: true,
         summary:
             "A wayfinding app that cut average terminal transfer time by turning a wall of gate boards into a single guided path.",

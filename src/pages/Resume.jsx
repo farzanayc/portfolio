@@ -9,21 +9,21 @@ const experience = [
         role: "Product Designer and Consultant",
         org: "University of Michigan School of Nursing",
         description:
-            "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
+            "SHipped",
     },
     {
         year: "2026",
         role: "Lead Product Researcher and Designer",
         org: "General Motors",
         description:
-            "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
+            "Designed an automotive dashboard feature for the 2026 GMC Sierra 1500 Denali Ultimate utilizing 3-D printed designs, creating an immersive experience for the GMC Design Team ",
     },
     {
         year: "2025",
         role: "UX Researcher and Consultant",
         org: "Reveal Global Consulting",
         description:
-            "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
+            "Lead a team of designers on a consulting project to optimize a synthetic data generation product through mixed methods research.,"
     },
     {
         year: "2024",

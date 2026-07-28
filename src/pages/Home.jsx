@@ -18,13 +18,14 @@ export default function Home() {
   return (
     <>
       <section className="page hero">
-        <span className="eyebrow">Product design · UX research</span>
+        <span className="eyebrow">UX research & design · Front End Dev</span>
         <h1>
-          I design software that gets out of<br />people's way.
+          I design accessible products that work for <br />the user.
         </h1>
         <p className="hero-sub">
           Four case studies below walk through the problems, the process, and what actually
           changed once each shipped.
+
         </p>
       </section>
 
