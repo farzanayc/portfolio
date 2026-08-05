@@ -26,10 +26,10 @@ const caseStudies = [
             "Missed-connection support tickets dropped 31% in the pilot terminal, and the guided-path pattern was adopted as the airline's new wayfinding standard.",
     },
     {
-        slug: "ledger",
+        slug: "general-motors",
         title: "Ledger",
-        subtitle: "Simplifying expense approvals for finance teams",
-        year: "2024",
+        subtitle: "Designing future automotive UX experiences through research-driven innovation",
+        year: "2026",
         role: "Product Designer",
         tools: "Figma, Notion, UserTesting",
         duration: "9 weeks",
