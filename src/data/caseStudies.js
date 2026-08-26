@@ -16,18 +16,26 @@ const caseStudies = [
         team: "2 UX designers, 2 UX researchers",
         image: process.env.PUBLIC_URL + "/images/ads-mockup.png",
         featured: true,
-        summary:
-            "A wayfinding app that cut average terminal transfer time by turning a wall of gate boards into a single guided path.",
+        overview:
+            "One or two sentences summarizing the project at a glance.",
         problem:
-            "Passengers missed connections because gate information was scattered across screens, apps, and overhead signage that never agreed with each other.",
-        approach:
-            "Ran contextual interviews inside three terminals, mapped the existing wayfinding ecosystem, then prototyped a single-path guidance model tested with 40 travelers across two rounds.",
+            "What was broken, painful, or unaddressed before this project.",
+        researchInsights:
+            "What you did to understand the problem, and what you learned from it.",
+        designProcess:
+            "How you moved from insights to concepts — sketches, iterations, testing.",
+        designSolution:
+            "What you actually built or designed as the final output.",
+        keyDecisions:
+            "The important tradeoffs or choices you made along the way, and why.",
         outcome:
-            "Missed-connection support tickets dropped 31% in the pilot terminal, and the guided-path pattern was adopted as the airline's new wayfinding standard.",
+            "What changed as a result — metrics, adoption, feedback.",
+        nextSteps:
+            "What's planned next, or what you'd explore if the project continued.",
     },
     {
         slug: "general-motors",
-        title: "Ledger",
+        title: "General Motors",
         subtitle: "Designing future automotive UX experiences through research-driven innovation",
         year: "2026",
         role: "Product Designer",
@@ -35,41 +43,59 @@ const caseStudies = [
         duration: "9 weeks",
         outcomeShort: "Review time cut from 4 min to 1.2 min",
         team: "1 designer, 2 PMs",
-        image: null,
+        image: process.env.PUBLIC_URL + "/images/gmc-mockup.jpg",
         featured: false,
-        summary:
-            "A redesigned approval queue that let finance managers clear a week's backlog of expense reports in one sitting.",
+        overview:
+            "One or two sentences summarizing the project at a glance.",
         problem:
-            "Managers were rejecting valid expenses simply because the review queue made it too slow to check receipts against policy.",
-        approach:
-            "Shadowed five finance managers during a real review cycle, identified the three checks they repeated every time, and rebuilt the queue around a receipt-first layout.",
+            "What was broken, painful, or unaddressed before this project.",
+        researchInsights:
+            "What you did to understand the problem, and what you learned from it.",
+        designProcess:
+            "How you moved from insights to concepts — sketches, iterations, testing.",
+        designSolution:
+            "What you actually built or designed as the final output.",
+        keyDecisions:
+            "The important tradeoffs or choices you made along the way, and why.",
         outcome:
-            "Average review time per report fell from 4 minutes to 1.2 minutes, and manager satisfaction scores rose from 2.9 to 4.4 out of 5.",
+            "What changed as a result — metrics, adoption, feedback.",
+        nextSteps:
+            "What's planned next, or what you'd explore if the project continued.",
+        protected: true,
+        password: "SI594",
     },
     {
-        slug: "greenhouse",
-        title: "Greenhouse",
+        slug: "Braid",
+        title: "Braid",
         subtitle: "Onboarding redesign for a plant-care subscription box",
         year: "2024",
-        role: "UX Designer",
+        role: "UX Researcher and Designer",
         tools: "Figma, Hotjar, Optimal Workshop",
         duration: "6 weeks",
         outcomeShort: "60-day survival rate up 54% → 78%",
         team: "1 designer, 1 PM",
-        image: null,
+        image: process.env.PUBLIC_URL + "/images/braid-mockup.png",
         featured: false,
-        summary:
-            "A quiz-driven onboarding flow that matched new subscribers to the right plants for their actual home conditions.",
+        overview:
+            "One or two sentences summarizing the project at a glance.",
         problem:
-            "New subscribers were cancelling within 60 days because their first plants died — the signup flow never asked about light or experience level.",
-        approach:
-            "Card-sorted the plant catalog against real failure data, then designed a five-question quiz that fed into a matching algorithm the team already had but wasn't using.",
+            "What was broken, painful, or unaddressed before this project.",
+        researchInsights:
+            "What you did to understand the problem, and what you learned from it.",
+        designProcess:
+            "How you moved from insights to concepts — sketches, iterations, testing.",
+        designSolution:
+            "What you actually built or designed as the final output.",
+        keyDecisions:
+            "The important tradeoffs or choices you made along the way, and why.",
         outcome:
-            "60-day plant survival rate improved from 54% to 78%, and second-box renewal rate increased by 22%.",
+            "What changed as a result — metrics, adoption, feedback.",
+        nextSteps:
+            "What's planned next, or what you'd explore if the project continued.",
     },
     {
-        slug: "signal",
-        title: "Signal",
+        slug: "MFit",
+        title: "MFit",
         subtitle: "A notification system that respects attention",
         year: "2023",
         role: "Interaction Designer",
@@ -77,16 +103,24 @@ const caseStudies = [
         duration: "8 weeks",
         outcomeShort: "Opt-out rate dropped to 11%",
         team: "1 designer, 1 engineer",
-        image: null,
+        image: process.env.PUBLIC_URL + "/images/mfit-mockup.png",
         featured: false,
-        summary:
-            "A tiered notification system that replaced constant pings with a daily digest people actually opened.",
+        overview:
+            "One or two sentences summarizing the project at a glance.",
         problem:
-            "Notification opt-out rates were climbing past 40% because every event — urgent or not — arrived as an identical push alert.",
-        approach:
-            "Categorized two years of notification logs by real urgency, then designed three delivery tiers and a digest view for anything that wasn't time-sensitive.",
+            "What was broken, painful, or unaddressed before this project.",
+        researchInsights:
+            "What you did to understand the problem, and what you learned from it.",
+        designProcess:
+            "How you moved from insights to concepts — sketches, iterations, testing.",
+        designSolution:
+            "What you actually built or designed as the final output.",
+        keyDecisions:
+            "The important tradeoffs or choices you made along the way, and why.",
         outcome:
-            "Opt-out rate dropped to 11%, and daily digest open rate reached 68% within the first month.",
+            "What changed as a result — metrics, adoption, feedback.",
+        nextSteps:
+            "What's planned next, or what you'd explore if the project continued.",
     },
 ];
 

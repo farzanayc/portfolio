@@ -30,7 +30,7 @@
 }
 
 .case-card-text {
-    flex: 1 1 55%;
+    flex: 1 1 60%;
     display: flex;
     flex-direction: column;
 }
@@ -91,7 +91,7 @@
 .case-card-media img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .case-card-media-placeholder {

@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import caseStudies from "../data/caseStudies";
+import PasswordGate from "../components/PasswordGate";
 import "./CaseStudy.css";
 
 export default function CaseStudy() {
   const { slug } = useParams();
   const study = caseStudies.find((s) => s.slug === slug);
+  const storageKey = `unlocked-${slug}`;
 
+    const [unlocked, setUnlocked] = useState(
+      () => sessionStorage.getItem(storageKey) === "true"
+  );
+  useEffect(() => {
+      setUnlocked(sessionStorage.getItem(storageKey) === "true");
+  }, [storageKey]);
   // Unknown slug — send back to the project grid instead of a dead page.
   if (!study) {
     return <Navigate to="/#projects" replace />;
   }
+
+  const handleUnlock = () => {
+      sessionStorage.setItem(storageKey, "true");
+      setUnlocked(true);
+  };
+  const isLocked = study.protected && !unlocked;
 
   return (
     <article className="page case-study">
@@ -19,10 +33,20 @@ export default function CaseStudy() {
       </Link>
 
       <span className="eyebrow">
-        Case study {study.index} · {study.year}
+        Case study · {study.year}
       </span>
       <h1>{study.title}</h1>
       <p className="case-study-subtitle">{study.subtitle}</p>
+
+        {isLocked ? (
+        <PasswordGate
+            password={study.password}
+            hint={study.passwordHint}
+            onUnlock={handleUnlock}
+        />
+        ) : (
+        <>
+
 
       <dl className="case-study-meta">
         <div>
@@ -53,6 +77,8 @@ export default function CaseStudy() {
           <p>{study.outcome}</p>
         </section>
       </div>
+        </>
+      )}
     </article>
   );
 }
