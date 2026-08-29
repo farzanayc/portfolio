@@ -59,24 +59,40 @@ export default function CaseStudy() {
         </div>
       </dl>
 
-      <div className="case-study-body">
-        <section>
-          <h2>Summary</h2>
-          <p>{study.summary}</p>
-        </section>
-        <section>
-          <h2>The problem</h2>
-          <p>{study.problem}</p>
-        </section>
-        <section>
-          <h2>Approach</h2>
-          <p>{study.approach}</p>
-        </section>
-        <section>
-          <h2>Outcome</h2>
-          <p>{study.outcome}</p>
-        </section>
-      </div>
+            <div className="case-study-body">
+                <section>
+                    <h2>Overview</h2>
+                    <p>{study.overview}</p>
+                </section>
+                <section>
+                    <h2>Problem</h2>
+                    <p>{study.problem}</p>
+                </section>
+                <section>
+                    <h2>Research & Key Insights</h2>
+                    <p>{study.researchInsights}</p>
+                </section>
+                <section>
+                    <h2>Design Process</h2>
+                    <p>{study.designProcess}</p>
+                </section>
+                <section>
+                    <h2>Design Solution</h2>
+                    <p>{study.designSolution}</p>
+                </section>
+                <section>
+                    <h2>Key Design Decisions</h2>
+                    <p>{study.keyDecisions}</p>
+                </section>
+                <section>
+                    <h2>Outcome</h2>
+                    <p>{study.outcome}</p>
+                </section>
+                <section>
+                    <h2>Next Steps</h2>
+                    <p>{study.nextSteps}</p>
+                </section>
+            </div>
         </>
       )}
     </article>
