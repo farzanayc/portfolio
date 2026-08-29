@@ -17,9 +17,13 @@ const caseStudies = [
         image: process.env.PUBLIC_URL + "/images/ads-mockup.png",
         featured: true,
         overview:
-            "One or two sentences summarizing the project at a glance.",
+            "CareConnect is a centralized online platform designed to help caregivers of older adults, particularly those caring for someone with dementia, find and evaluate Adult Day Services with less stress and uncertainty in the Southeastern Michigan area.",
         problem:
-            "What was broken, painful, or unaddressed before this project.",
+            "Finding Adult Day Services can be overwhelming. Caregivers often enter the role unexpectedly while balancing work, family, and their own well-being. Information about available resources is fragmented across websites, difficult to compare, and often filled with unfamiliar terminology. \n" +
+            "\n" +
+            "This problem is often magnified for Black caregivers in particular. Due to challenges shaped by structural and cultural barriers, there is a historical mistrust in healthcare systems, a lack of culturally responsive resources, and limited access to centralized and trustworthy information to help support caregivers. Due to these reasons, many Black caregivers rely on recommendations through word-of-mouth or informal networks, which can limit the awareness of available services.  \n" +
+            "\n" +
+            "There is a clear gap here: caregivers need an easily accessible central platform that they can use to locate, understand, and evaluate Adult Day Services in their area and this resource needs to be clear, easy to use, and trustworthy. \n",
         researchInsights:
             "What you did to understand the problem, and what you learned from it.",
         designProcess:

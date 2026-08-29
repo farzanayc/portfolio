@@ -52,6 +52,10 @@
   margin-bottom: var(--space-4);
 }
 
+.case-study-body p {
+    white-space: pre-line;
+}
+
 .case-study-body h2 {
   font-size: 1.2rem;
   color: var(--color-teal);
