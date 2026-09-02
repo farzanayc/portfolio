@@ -19,13 +19,22 @@ const caseStudies = [
         overview:
             "CareConnect is a centralized online platform designed to help caregivers of older adults, particularly those caring for someone with dementia, find and evaluate Adult Day Services with less stress and uncertainty in the Southeastern Michigan area.",
         problem:
-            "Finding Adult Day Services can be overwhelming. Caregivers often enter the role unexpectedly while balancing work, family, and their own well-being. Information about available resources is fragmented across websites, difficult to compare, and often filled with unfamiliar terminology. \n" +
+            "Finding Adult Day Services can be overwhelming for caregivers who are already juggling work, family, and their own well-being. Information regarding available resources are scattered across websites, difficult to compare, and often filled with unfamiliar terminology.  \n" +
             "\n" +
-            "This problem is often magnified for Black caregivers in particular. Due to challenges shaped by structural and cultural barriers, there is a historical mistrust in healthcare systems, a lack of culturally responsive resources, and limited access to centralized and trustworthy information to help support caregivers. Due to these reasons, many Black caregivers rely on recommendations through word-of-mouth or informal networks, which can limit the awareness of available services.  \n" +
+            "For Black caregivers, these challenges can be compounded by structural and cultural barriers, including historical mistrust in healthcare systems and a lack of culturally responsive, trustworthy resources. As a result, many turn to word-of-mouth and informal networks to find care which potentially limits their awareness of available resources.  \n" +
             "\n" +
-            "There is a clear gap here: caregivers need an easily accessible central platform that they can use to locate, understand, and evaluate Adult Day Services in their area and this resource needs to be clear, easy to use, and trustworthy. \n",
-        researchInsights:
-            "What you did to understand the problem, and what you learned from it.",
+            "The gap is clear, caregivers need one centralized, trustworthy place to find, understand, and compare Adult Day Services in their community without having to navigate a fragmented system on their own.   \n",
+        researchInsights: {
+            intro: "We used a mixed methods research approach to understand caregiver needs and identify gaps in existing digital experiences:",
+            bullets: [
+                "6 caregiver interviews to explore experiences, decision-making, and expectations",
+                "35 survey participants to identify broader caregiving challenges and behaviors",
+                "Competitive analysis of caregiving and resource-based websites",
+                "Literature review of academic research on caregiving, dementia, and healthcare access",
+                "Digital ethnography of online caregiver communities",
+                "5 usability tests and refine the prototype",
+            ],
+        },
         designProcess:
             "How you moved from insights to concepts — sketches, iterations, testing.",
         designSolution:
@@ -53,8 +62,10 @@ const caseStudies = [
             "One or two sentences summarizing the project at a glance.",
         problem:
             "What was broken, painful, or unaddressed before this project.",
-        researchInsights:
-            "What you did to understand the problem, and what you learned from it.",
+        researchInsights: {
+            intro: "Your regular paragraph text here.",
+            bullets: [],
+        },
         designProcess:
             "How you moved from insights to concepts — sketches, iterations, testing.",
         designSolution:
@@ -84,8 +95,10 @@ const caseStudies = [
             "One or two sentences summarizing the project at a glance.",
         problem:
             "What was broken, painful, or unaddressed before this project.",
-        researchInsights:
-            "What you did to understand the problem, and what you learned from it.",
+        researchInsights: {
+            intro: "Your regular paragraph text here.",
+            bullets: [],
+        },
         designProcess:
             "How you moved from insights to concepts — sketches, iterations, testing.",
         designSolution:
@@ -113,8 +126,10 @@ const caseStudies = [
             "One or two sentences summarizing the project at a glance.",
         problem:
             "What was broken, painful, or unaddressed before this project.",
-        researchInsights:
-            "What you did to understand the problem, and what you learned from it.",
+        researchInsights: {
+            intro: "Your regular paragraph text here.",
+            bullets: [],
+        },
         designProcess:
             "How you moved from insights to concepts — sketches, iterations, testing.",
         designSolution:

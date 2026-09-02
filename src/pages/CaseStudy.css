@@ -60,3 +60,13 @@
   font-size: 1.2rem;
   color: var(--color-teal);
 }
+.case-study-list {
+    list-style: disc;
+    padding-left: 1.3rem;
+    margin: 0 0 var(--space-2);
+    color: var(--color-muted);
+}
+
+.case-study-list li {
+    margin-bottom: 0.4rem;
+}

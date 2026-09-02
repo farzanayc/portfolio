@@ -69,8 +69,15 @@ export default function CaseStudy() {
                     <p>{study.problem}</p>
                 </section>
                 <section>
-                    <h2>Research & Key Insights</h2>
-                    <p>{study.researchInsights}</p>
+                    <h2>2. Research & Key Insights</h2>
+                    <p>{study.researchInsights.intro}</p>
+                    {study.researchInsights.bullets.length > 0 && (
+                        <ul className="case-study-list">
+                            {study.researchInsights.bullets.map((item, i) => (
+                                <li key={i}>{item}</li>
+                            ))}
+                        </ul>
+                    )}
                 </section>
                 <section>
                     <h2>Design Process</h2>
