@@ -69,7 +69,7 @@ export default function CaseStudy() {
                     <p>{study.problem}</p>
                 </section>
                 <section>
-                    <h2>2. Research & Key Insights</h2>
+                    <h2>Research & Key Insights</h2>
                     <p>{study.researchInsights.intro}</p>
                     {study.researchInsights.bullets.length > 0 && (
                         <ul className="case-study-list">
@@ -99,7 +99,20 @@ export default function CaseStudy() {
                 </section>
                 <section>
                     <h2>Key Design Decisions</h2>
-                    <p>{study.keyDecisions}</p>
+                    {typeof study.keyDecisions === "string" ? (
+                        <p>{study.keyDecisions}</p>
+                    ) : (
+                        <>
+                            <p>{study.keyDecisions.intro}</p>
+                            {study.keyDecisions.bullets.length > 0 && (
+                                <ul className="case-study-list">
+                                    {study.keyDecisions.bullets.map((item, i) => (
+                                        <li key={i}>{item}</li>
+                                    ))}
+                                </ul>
+                            )}
+                        </>
+                    )}
                 </section>
                 <section>
                     <h2>Outcome</h2>

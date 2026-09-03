@@ -94,8 +94,10 @@ const caseStudies = [
             "How you moved from insights to concepts — sketches, iterations, testing.",
         designSolution:
             "What you actually built or designed as the final output.",
-        keyDecisions:
-            "The important tradeoffs or choices you made along the way, and why.",
+        keyDecisions: {
+            intro: "The important tradeoffs or choices you made along the way, and why.",
+            bullets: [],
+        },
         outcome:
             "What changed as a result — metrics, adoption, feedback.",
         nextSteps:
@@ -129,8 +131,10 @@ const caseStudies = [
             "How you moved from insights to concepts — sketches, iterations, testing.",
         designSolution:
             "What you actually built or designed as the final output.",
-        keyDecisions:
-            "The important tradeoffs or choices you made along the way, and why.",
+        keyDecisions: {
+            intro: "The important tradeoffs or choices you made along the way, and why.",
+            bullets: [],
+        },
         outcome:
             "What changed as a result — metrics, adoption, feedback.",
         nextSteps:
@@ -162,8 +166,10 @@ const caseStudies = [
             "How you moved from insights to concepts — sketches, iterations, testing.",
         designSolution:
             "What you actually built or designed as the final output.",
-        keyDecisions:
-            "The important tradeoffs or choices you made along the way, and why.",
+        keyDecisions: {
+            intro: "The important tradeoffs or choices you made along the way, and why.",
+            bullets: [],
+        },
         outcome:
             "What changed as a result — metrics, adoption, feedback.",
         nextSteps:
