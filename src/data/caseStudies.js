@@ -54,7 +54,15 @@ const caseStudies = [
             "\n" +
             "Every service listing surfaces the details caregivers said mattered most during research — cost, hours, and accessibility — without requiring extra clicks or external sites. Clear pathways to learn more or contact a provider are built directly into the flow, so caregivers never have to leave the platform to take the next step.",
         keyDecisions:
-            "The important tradeoffs or choices you made along the way, and why.",
+            {
+                intro: "Usability testing drove several key pivots away from our original design:",
+                bullets: [
+                    "Cut the onboarding quiz. It redirected users to an external site and added steps that didn't match how people actually wanted to search. Replaced it with a direct, step-by-step call-to-action on the homepage instead.",
+                    "Merged the About and Education pages. Testing showed users consistently looked for dementia and service information under \"About,\" not a separate Education page, so we consolidated to match that expectation.",
+                    "Replaced the acronym \"ADS\" with \"Adult Day Services\" everywhere on the site, after both users and stakeholders flagged confusion over what the acronym meant.",
+                    "Reworked the results page with dropdown filters and expandable sections instead of dense text blocks, to reduce cognitive load for caregivers searching under stress.",
+                ],
+            },
         outcome:
             "The project secured a $30K grant to move CareConnect from prototype to a live, public website. We delivered a complete high-fidelity prototype and visual style guide, grounded in six caregiver interviews, 35 survey responses, and five rounds of usability testing — giving the client a validated, development-ready design rather than a set of untested assumptions.",
         nextSteps:
