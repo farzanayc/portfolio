@@ -46,15 +46,19 @@ const caseStudies = [
             ],
         },
         designProcess:
-            "How you moved from insights to concepts — sketches, iterations, testing.",
+            "Research pointed to three consistent barriers: caregivers didn't understand what Adult Day Services actually offered, couldn't easily compare options, and hesitated to trust unfamiliar providers. We translated these findings into a medium-fidelity prototype covering the core flows caregivers needed most — searching for services, understanding what Adult Day Services are, and getting help.\n" +
+            "\n" +
+            "We stress-tested that prototype with five usability sessions built around real tasks: searching for services, applying filters, and finding resources. The sessions surfaced friction points in navigation, terminology, and content hierarchy — all of which fed directly into the next round of design. From there, we moved into high-fidelity design, building out a full visual style guide and validating the refined interface with additional in-class usability testing before finalizing.",
         designSolution:
-            "What you actually built or designed as the final output.",
+            "CareConnect gives caregivers a single place to search, compare, and evaluate Adult Day Services near them. Location-based search and filters (transportation access, accessibility needs, and more) let caregivers narrow results to what actually fits their situation, while trust indicators like reviews and verified listings help them feel confident in unfamiliar providers.\n" +
+            "\n" +
+            "Every service listing surfaces the details caregivers said mattered most during research — cost, hours, and accessibility — without requiring extra clicks or external sites. Clear pathways to learn more or contact a provider are built directly into the flow, so caregivers never have to leave the platform to take the next step.",
         keyDecisions:
             "The important tradeoffs or choices you made along the way, and why.",
         outcome:
-            "What changed as a result — metrics, adoption, feedback.",
+            "The project secured a $30K grant to move CareConnect from prototype to a live, public website. We delivered a complete high-fidelity prototype and visual style guide, grounded in six caregiver interviews, 35 survey responses, and five rounds of usability testing — giving the client a validated, development-ready design rather than a set of untested assumptions.",
         nextSteps:
-            "What's planned next, or what you'd explore if the project continued.",
+            "Next is client handoff: securing a domain, building the site in WordPress, and bringing on a developer to implement the design system, service database, and location-based search. We're preparing full documentation — including a guided walkthrough of the Figma file and component specs — so the client's team can maintain and extend the site independently once it launches.",
     },
     {
         slug: "general-motors",
