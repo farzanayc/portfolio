@@ -34,6 +34,16 @@ const caseStudies = [
                 "Digital ethnography of online caregiver communities",
                 "5 usability tests and refine the prototype",
             ],
+            findingsIntro:
+            "Across these methods, a few patterns stood out clearly:",
+            findingsBullets: [
+                "Caregiving is often unplanned. Many step into the role without prior knowledge of available resources, and delay seeking support until they're already overwhelmed.",
+                "Caregivers struggle to understand and compare services, especially without a healthcare background, they are unclear on what's offered, how services differ, or whether they qualify.",
+                "Trust is the deciding factor. Recommendations from trusted sources, transparent cost/staff/safety info, and visible reviews all directly affect whether caregivers engage with a provider.",
+                "Logistics (transportation, cost, scheduling) are a major barrier that prevents caregivers from using services they'd otherwise choose.",
+                "Existing caregiving websites add to the problem. They are dense, jargon-heavy, and hard to navigate, increasing cognitive load for users already under stress.",
+                "Cultural representation matters. Black caregivers in particular found resources more trustworthy when they reflected their lived experience, not just surface-level inclusion.",
+            ],
         },
         designProcess:
             "How you moved from insights to concepts — sketches, iterations, testing.",
@@ -65,6 +75,8 @@ const caseStudies = [
         researchInsights: {
             intro: "Your regular paragraph text here.",
             bullets: [],
+            findingsIntro: "",
+            findingsBullets: [],
         },
         designProcess:
             "How you moved from insights to concepts — sketches, iterations, testing.",
@@ -98,6 +110,8 @@ const caseStudies = [
         researchInsights: {
             intro: "Your regular paragraph text here.",
             bullets: [],
+            findingsIntro: "",
+            findingsBullets: [],
         },
         designProcess:
             "How you moved from insights to concepts — sketches, iterations, testing.",
@@ -129,6 +143,8 @@ const caseStudies = [
         researchInsights: {
             intro: "Your regular paragraph text here.",
             bullets: [],
+            findingsIntro: "",
+            findingsBullets: [],
         },
         designProcess:
             "How you moved from insights to concepts — sketches, iterations, testing.",

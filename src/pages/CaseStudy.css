@@ -70,3 +70,9 @@
 .case-study-list li {
     margin-bottom: 0.4rem;
 }
+
+.case-study-subheading {
+    margin-top: var(--space-3);
+    font-weight: 500;
+    color: var(--color-ink);
+}

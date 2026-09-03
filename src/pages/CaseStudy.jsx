@@ -78,6 +78,16 @@ export default function CaseStudy() {
                             ))}
                         </ul>
                     )}
+                    {study.researchInsights.findingsIntro && (
+                        <>
+                            <p className="case-study-subheading">{study.researchInsights.findingsIntro}</p>
+                            <ul className="case-study-list">
+                                {study.researchInsights.findingsBullets.map((item, i) => (
+                                    <li key={i}>{item}</li>
+                                ))}
+                            </ul>
+                        </>
+                    )}
                 </section>
                 <section>
                     <h2>Design Process</h2>
