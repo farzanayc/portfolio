@@ -1,0 +1,17 @@
+.media-block {
+    margin: var(--space-4) 0;
+}
+
+.media-block-content {
+    width: 100%;
+    border-radius: var(--radius);
+    display: block;
+}
+
+.media-block-caption {
+    margin-top: var(--space-1);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--color-muted);
+    text-align: center;
+}
