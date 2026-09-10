@@ -4,7 +4,9 @@
 
 .media-block-content {
     width: 100%;
+    max-width: 500px;
     border-radius: var(--radius);
+    margin: 0 auto;
     display: block;
 }
 
@@ -14,4 +16,7 @@
     font-size: 0.78rem;
     color: var(--color-muted);
     text-align: center;
+}
+.case-study-list li {
+    margin-bottom: var(--space-2);
 }

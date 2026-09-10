@@ -57,16 +57,57 @@ const caseStudies = [
             {
                 intro: "Usability testing drove several key pivots away from our original design:",
                 bullets: [
-                    "Cut the onboarding quiz. It redirected users to an external site and added steps that didn't match how people actually wanted to search. Replaced it with a direct, step-by-step call-to-action on the homepage instead.",
-                    "Merged the About and Education pages. Testing showed users consistently looked for dementia and service information under \"About,\" not a separate Education page, so we consolidated to match that expectation.",
-                    "Replaced the acronym \"ADS\" with \"Adult Day Services\" everywhere on the site, after both users and stakeholders flagged confusion over what the acronym meant.",
-                    "Reworked the results page with dropdown filters and expandable sections instead of dense text blocks, to reduce cognitive load for caregivers searching under stress.",
-                ],
+                    {
+                        text: "Cut the onboarding quiz. It redirected users to an external site and added steps that didn't match how people actually wanted to search. Replaced it with a direct, step-by-step call-to-action on the homepage instead.",
+                        media: {
+                            type: "image",
+                            src: process.env.PUBLIC_URL + "/images/onboarding_quiz.png",
+                            caption: "Before and after images of the onboarding quiz removed from the homepage.",
+                        },
+                    },
+                    {
+                        text: "Merged the About and Education pages. Testing showed users consistently looked for dementia and service information under \"About,\" not a separate Education page, so we consolidated to match that expectation.",
+                        media: {
+                            type: "image",
+                            src: process.env.PUBLIC_URL + "/images/aboutpage.png",
+                            caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
+                        },
+                    },
+                    {
+                        text: "Replaced the acronym \"ADS\" with \"Adult Day Services\" everywhere on the site, after both users and stakeholders flagged confusion over what the acronym meant.",
+                        media: {
+                            type: "image",
+                            src: process.env.PUBLIC_URL + "/images/ads_full_name.png",
+                            caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
+                        },
+                    },
+                    {
+                        text: "Reworked the results page with dropdown filters and expandable sections instead of dense text blocks, to reduce cognitive load for caregivers searching under stress.",
+                        media: {
+                            type: "image",
+                            src: process.env.PUBLIC_URL + "/images/dropdown_filter.png",
+                            caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
+                        },
+                    },
+                    ],
             },
         outcome:
             "The project secured a $30K grant to move CareConnect from prototype to a live, public website. We delivered a complete high-fidelity prototype and visual style guide, grounded in six caregiver interviews, 35 survey responses, and five rounds of usability testing — giving the client a validated, development-ready design rather than a set of untested assumptions.",
         nextSteps:
             "Next is client handoff: securing a domain, building the site in WordPress, and bringing on a developer to implement the design system, service database, and location-based search. We're preparing full documentation — including a guided walkthrough of the Figma file and component specs — so the client's team can maintain and extend the site independently once it launches.",
+        media: {
+            overview: {
+                type: "image",
+                src: process.env.PUBLIC_URL + "/images/caregiving.jpg",
+                caption: "A snapshot of a caregiver attending to their loved one.",
+            },
+            outcome: {
+                type: "video",
+                src: process.env.PUBLIC_URL + "/images/CareConnect.mp4",
+                caption: "Full walkthrough of the search and filter flow",
+            },
+
+        },
     },
     {
         slug: "general-motors",

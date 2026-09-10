@@ -3,6 +3,7 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import caseStudies from "../data/caseStudies";
 import PasswordGate from "../components/PasswordGate";
 import "./CaseStudy.css";
+import MediaBlock from "../components/MediaBlock";
 
 export default function CaseStudy() {
   const { slug } = useParams();
@@ -63,6 +64,7 @@ export default function CaseStudy() {
                 <section>
                     <h2>Overview</h2>
                     <p>{study.overview}</p>
+                    {study.media?.overview && <MediaBlock {...study.media.overview} />}
                 </section>
                 <section>
                     <h2>Problem</h2>
@@ -107,7 +109,10 @@ export default function CaseStudy() {
                             {study.keyDecisions.bullets.length > 0 && (
                                 <ul className="case-study-list">
                                     {study.keyDecisions.bullets.map((item, i) => (
-                                        <li key={i}>{item}</li>
+                                        <li key={i}>
+                                            {item.text}
+                                            {item.media && <MediaBlock {...item.media} />}
+                                        </li>
                                     ))}
                                 </ul>
                             )}
@@ -117,6 +122,7 @@ export default function CaseStudy() {
                 <section>
                     <h2>Outcome</h2>
                     <p>{study.outcome}</p>
+                    {study.media?.outcome && <MediaBlock {...study.media.outcome} />}
                 </section>
                 <section>
                     <h2>Next Steps</h2>
