@@ -103,7 +103,7 @@ const caseStudies = [
             },
             outcome: {
                 type: "video",
-                src: process.env.PUBLIC_URL + "/images/CareConnect.mp4",
+                src: process.env.PUBLIC_URL + "/images/CareConnect_copy.mp4",
                 caption: "Full walkthrough of the search and filter flow",
             },
 
