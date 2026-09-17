@@ -115,10 +115,10 @@ const caseStudies = [
         subtitle: "Designing future automotive UX experiences through research-driven innovation",
         year: "2026",
         role: "Product Designer",
-        tools: "Figma, Notion, UserTesting",
+        tools: "Figma, FigJam, Zoom, ScreensStudio",
         duration: "9 weeks",
         outcomeShort: "Review time cut from 4 min to 1.2 min",
-        team: "1 designer, 2 PMs",
+        team: "2 product designers, 1 researcher",
         image: process.env.PUBLIC_URL + "/images/gmc-mockup.jpg",
         featured: false,
         overview:
