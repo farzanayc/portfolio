@@ -122,7 +122,7 @@ const caseStudies = [
         image: process.env.PUBLIC_URL + "/images/gmc-mockup.jpg",
         featured: false,
         overview:
-            "One or two sentences summarizing the project at a glance.",
+            "GM’s brief challenged us to think about truck ownership as something more dynamic and integrated across various interfaces. Our team responded by designing the Sierra Command Center–a context aware adaptive drive mode dashboard. ",
         problem:
             "What was broken, painful, or unaddressed before this project.",
         researchInsights: {
