@@ -124,7 +124,7 @@ const caseStudies = [
         overview:
             "GM’s brief challenged us to think about truck ownership as something more dynamic and integrated across various interfaces. Our team responded by designing the Sierra Command Center–a context aware adaptive drive mode dashboard. ",
         problem:
-            "What was broken, painful, or unaddressed before this project.",
+            "HMW: How might we design an intelligent, voice-enabled, and context-aware truck experience that helps drivers stay confident, informed, and in control?",
         researchInsights: {
             intro: "Research began with an in-depth competitive analysis of three internal combustion engines: the 2025 GMC Sierra 1500 Denali Ultimate, the 2021 Rivian R1T, and the 2023 Volkswagen Amarok. The 2025 GMC Sierra 1500 Denali Ultimate was selected as the primary GM vehicle for this semester’s project focus. The 2021 Rivian R1T was chosen as a competitor because it represents a more tech-forward, fully electric approach to the truck segment with minimal physical controls, a proprietary software ecosystem, and no Apple CarPlay or Android Auto, making it a strong contrast to GM’s more traditional interface strategy. The 2023 Volkswagen Amarok was selected because it runs Ford’s SYNC 4 system on a non-American platform, offering an international perspective on truck infotainment that blends physical controls with a touch-first interface. Together, these three vehicles illustrate the full spectrum of how automakers balance physical controls, touchscreen reliance, and third-party software integration in modern trucks.\n" +
                 "\n" +
