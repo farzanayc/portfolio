@@ -151,17 +151,17 @@ const caseStudies = [
     {
         slug: "Braid",
         title: "Braid",
-        subtitle: "Onboarding redesign for a plant-care subscription box",
+        subtitle: "Designing version 1.0 of groups feature for Braid website",
         year: "2024",
         role: "UX Researcher and Designer",
         tools: "Figma, Zoom, Otter.ai, Slack",
-        duration: "6 weeks",
+        duration: "14 weeks",
         outcomeShort: "60-day survival rate up 54% → 78%",
-        team: "1 designer, 1 PM",
+        team: "3 designers, 1 PM, 4 developers, 2 researchers ",
         image: process.env.PUBLIC_URL + "/images/braid-mockup.png",
         featured: false,
         overview:
-            "One or two sentences summarizing the project at a glance.",
+            "A feature that places meaningful conversations at your fingertips.",
         problem:
             "What was broken, painful, or unaddressed before this project.",
         researchInsights: {
@@ -186,13 +186,13 @@ const caseStudies = [
     {
         slug: "MFit",
         title: "MFit",
-        subtitle: "A notification system that respects attention",
+        subtitle: "A fitness app that keeps students active through gamification and alerts",
         year: "2023",
         role: "Interaction Designer",
-        tools: "Figma, Framer",
-        duration: "8 weeks",
-        outcomeShort: "Opt-out rate dropped to 11%",
-        team: "1 designer, 1 engineer",
+        tools: "Figma, Medium, Zoom, Google Meets, White board + markers, paper + pencil",
+        duration: "14 weeks",
+        outcomeShort: "Approval of high fidelity app design",
+        team: "4 researchers and designers",
         image: process.env.PUBLIC_URL + "/images/mfit-mockup.png",
         featured: false,
         overview:
