@@ -116,8 +116,8 @@ const caseStudies = [
         year: "2026",
         role: "Product Designer",
         tools: "Figma, FigJam, Zoom, ScreensStudio",
-        duration: "9 weeks",
-        outcomeShort: "Review time cut from 4 min to 1.2 min",
+        duration: "14 weeks",
+        outcomeShort: "100% company leadership approval.",
         team: "2 product designers, 1 researcher",
         image: process.env.PUBLIC_URL + "/images/gmc-mockup.jpg",
         featured: false,
@@ -126,7 +126,9 @@ const caseStudies = [
         problem:
             "What was broken, painful, or unaddressed before this project.",
         researchInsights: {
-            intro: "Your regular paragraph text here.",
+            intro: "Research began with an in-depth competitive analysis of three internal combustion engines: the 2025 GMC Sierra 1500 Denali Ultimate, the 2021 Rivian R1T, and the 2023 Volkswagen Amarok. The 2025 GMC Sierra 1500 Denali Ultimate was selected as the primary GM vehicle for this semester’s project focus. The 2021 Rivian R1T was chosen as a competitor because it represents a more tech-forward, fully electric approach to the truck segment with minimal physical controls, a proprietary software ecosystem, and no Apple CarPlay or Android Auto, making it a strong contrast to GM’s more traditional interface strategy. The 2023 Volkswagen Amarok was selected because it runs Ford’s SYNC 4 system on a non-American platform, offering an international perspective on truck infotainment that blends physical controls with a touch-first interface. Together, these three vehicles illustrate the full spectrum of how automakers balance physical controls, touchscreen reliance, and third-party software integration in modern trucks.\n" +
+                "\n" +
+                "Beyond this analysis, we also surveyed 2025 GMC Sierra 1500 Denali Ultimate owners for contextual inquiry purposes. We gathered pain points, motivations, and user behavior while gathering background information alongside to understand the various features that exist within this car in comparison to other models. We focused on a multitude of issues and although we brainstormed and created low-mid fidelity designs of most issues, we honed into the trailering feature after some feedback from the GM design team. Trailering hosts many issues on its own and in order to find a solution that would be feasible given our limited knowledge on truck ownership, we decided to focus on the idea of sway. \n",
             bullets: [],
             findingsIntro: "",
             findingsBullets: [],
@@ -152,7 +154,7 @@ const caseStudies = [
         subtitle: "Onboarding redesign for a plant-care subscription box",
         year: "2024",
         role: "UX Researcher and Designer",
-        tools: "Figma, Hotjar, Optimal Workshop",
+        tools: "Figma, Zoom, Otter.ai, Slack",
         duration: "6 weeks",
         outcomeShort: "60-day survival rate up 54% → 78%",
         team: "1 designer, 1 PM",
