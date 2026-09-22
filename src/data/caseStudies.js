@@ -156,7 +156,7 @@ const caseStudies = [
         role: "UX Researcher and Designer",
         tools: "Figma, Zoom, Otter.ai, Slack",
         duration: "14 weeks",
-        outcomeShort: "60-day survival rate up 54% → 78%",
+        outcomeShort: "Implementation for use by multiple university courses.",
         team: "3 designers, 1 PM, 4 developers, 2 researchers ",
         image: process.env.PUBLIC_URL + "/images/braid-mockup.png",
         featured: false,
