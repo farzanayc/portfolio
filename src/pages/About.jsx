@@ -6,6 +6,11 @@ export default function About() {
     <section className="page about">
       <span className="eyebrow">About</span>
         <h1>Welcome to my portfolio!</h1>
+        <img
+            src={process.env.PUBLIC_URL + "/images/IMG_8080-preview.jpeg"}
+            alt="Farzana Chowdhury"
+            className="about-photo"
+        />
         <p>
             Hello everyone, I'm Farzana Chowdhury and I am a full-stack designer
             who specializes in bridging the gap between accessible products and
