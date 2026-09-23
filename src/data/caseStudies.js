@@ -23,7 +23,9 @@ const caseStudies = [
             "\n" +
             "For Black caregivers, these challenges can be compounded by structural and cultural barriers, including historical mistrust in healthcare systems and a lack of culturally responsive, trustworthy resources. As a result, many turn to word-of-mouth and informal networks to find care which potentially limits their awareness of available resources.  \n" +
             "\n" +
-            "The gap is clear, caregivers need one centralized, trustworthy place to find, understand, and compare Adult Day Services in their community without having to navigate a fragmented system on their own.   \n",
+            "The gap is clear, caregivers need one centralized, trustworthy place to find, understand, and compare Adult Day Services in their community without having to navigate a fragmented system on their own.   \n" +
+            "\n" +
+            "***How might we simplify fragmented Adult Day Services information so caregivers can confidently find and evaluate care options while balancing their own needs and responsibilities?***",
         researchInsights: {
             intro: "We used a mixed methods research approach to understand caregiver needs and identify gaps in existing digital experiences:",
             bullets: [
@@ -124,7 +126,11 @@ const caseStudies = [
         overview:
             "GM’s brief challenged us to think about truck ownership as something more dynamic and integrated across various interfaces. Our team responded by designing the Sierra Command Center–a context aware adaptive drive mode dashboard. ",
         problem:
-            "HMW: How might we design an intelligent, voice-enabled, and context-aware truck experience that helps drivers stay confident, informed, and in control?",
+            "As General Motors continues to push innovation forward, the rapid evolution of technologies such as AI is transforming what customers can expect from the future of driving. With new capabilities emerging quickly, vehicle experiences need to evolve alongside them while remaining intuitive, accessible, and grounded in driver safety. For connected trucks, this means designing innovative experiences that can deliver real-time alerts, contextual information, and intelligent assistance without overwhelming the driver.\n" +
+            "\n" +
+            "The challenge lies in integrating these emerging technologies in a way that enhances the driving experience while keeping safety at the forefront. Information needs to be presented clearly and at the right moment, allowing drivers to understand their vehicle and surroundings without unnecessary distraction. As GM looks toward the future of its trucks, innovation must go hand in hand with thoughtful, safety-conscious design.\n" +
+            "\n" +
+            "***HMW: How might we design an intelligent, voice-enabled, and context-aware truck experience that helps drivers stay confident, informed, and in control?***",
         researchInsights: {
             intro: "Research began with an in-depth competitive analysis of three internal combustion engines: the 2025 GMC Sierra 1500 Denali Ultimate, the 2021 Rivian R1T, and the 2023 Volkswagen Amarok. The 2025 GMC Sierra 1500 Denali Ultimate was selected as the primary GM vehicle for this semester’s project focus. The 2021 Rivian R1T was chosen as a competitor because it represents a more tech-forward, fully electric approach to the truck segment with minimal physical controls, a proprietary software ecosystem, and no Apple CarPlay or Android Auto, making it a strong contrast to GM’s more traditional interface strategy. The 2023 Volkswagen Amarok was selected because it runs Ford’s SYNC 4 system on a non-American platform, offering an international perspective on truck infotainment that blends physical controls with a touch-first interface. Together, these three vehicles illustrate the full spectrum of how automakers balance physical controls, touchscreen reliance, and third-party software integration in modern trucks.\n" +
                 "\n" +

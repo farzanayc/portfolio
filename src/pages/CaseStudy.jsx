@@ -4,6 +4,7 @@ import caseStudies from "../data/caseStudies";
 import PasswordGate from "../components/PasswordGate";
 import "./CaseStudy.css";
 import MediaBlock from "../components/MediaBlock";
+import FormattedText from "../components/FormattedText";
 
 export default function CaseStudy() {
   const { slug } = useParams();
@@ -68,7 +69,7 @@ export default function CaseStudy() {
                 </section>
                 <section>
                     <h2>Problem</h2>
-                    <p>{study.problem}</p>
+                    <p><FormattedText text={study.problem} /></p>
                 </section>
                 <section>
                     <h2>Research & Key Insights</h2>
