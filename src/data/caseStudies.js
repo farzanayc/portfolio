@@ -48,7 +48,7 @@ const caseStudies = [
             ],
         },
         designProcess:
-            "Research pointed to three consistent barriers: caregivers didn't understand what Adult Day Services actually offered, couldn't easily compare options, and hesitated to trust unfamiliar providers. We translated these findings into a medium-fidelity prototype covering the core flows caregivers needed most — searching for services, understanding what Adult Day Services are, and getting help.\n" +
+            "Research pointed to three consistent barriers: caregivers didn't understand what Adult Day Services actually offered, couldn't easily compare options, and hesitated to trust unfamiliar providers. We translated these findings into a medium-fidelity prototype covering the core flows caregivers needed most: searching for services, understanding what Adult Day Services are, and getting help.\n" +
             "\n" +
             "We stress-tested that prototype with five usability sessions built around real tasks: searching for services, applying filters, and finding resources. The sessions surfaced friction points in navigation, terminology, and content hierarchy — all of which fed directly into the next round of design. From there, we moved into high-fidelity design, building out a full visual style guide and validating the refined interface with additional in-class usability testing before finalizing.",
         designSolution:
@@ -117,7 +117,7 @@ const caseStudies = [
         subtitle: "Designing future automotive UX experiences through research-driven innovation",
         year: "2026",
         role: "Product Designer",
-        tools: "Figma, FigJam, Zoom, ScreensStudio",
+        tools: "Figma, FigJam, Zoom, ScreensStudio, TomTom Maps Generator Plugin, Iconify, Phosphor Icons",
         duration: "14 weeks",
         outcomeShort: "100% company leadership approval.",
         team: "2 product designers, 1 researcher",
