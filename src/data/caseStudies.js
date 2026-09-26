@@ -238,9 +238,9 @@ const caseStudies = [
             ],
         },
         outcome:
-            "What changed as a result — metrics, adoption, feedback.",
+            "Our final prototype demonstrated how AI and context-aware interactions could be integrated into the existing truck experience without adding unnecessary complexity. By combining the cluster, center display, mobile app, and physical controls, we created a connected experience that prioritized timely information, intuitive interaction, and driver safety.",
         nextSteps:
-            "What's planned next, or what you'd explore if the project continued.",
+            "Although the presentation concluded this project, if I were to continue the work, I would conduct additional usability testing with truck owners in real-world towing scenarios, iterate on the design based on their feedback, and explore how the system could adapt to various driving conditions to best support the drivers. ",
         protected: true,
         password: "SI594",
     },
