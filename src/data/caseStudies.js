@@ -140,12 +140,102 @@ const caseStudies = [
             findingsBullets: [],
         },
         designProcess:
-            "How you moved from insights to concepts — sketches, iterations, testing.",
+            "**Ideation**\n" +
+            "\n" +
+            "Our early ideation explored multiple ways AI could support truck owners, including identifying individual trailer item weights through an AI-powered camera system and predicting trailer sway.\n" +
+            "\n" +
+            "We ultimately focused on predictive sway detection and began translating the concept into a broader truck experience.\n" +
+            "\n" +
+            "To understand automotive interface conventions, we used ScreenStudio to study vehicle cluster and center-display experiences across different markets, including the United States and China. These explorations informed our approach to hierarchy, navigation, information density, and interaction patterns.\n" +
+            "\n" +
+            "**Building the system**\n" +
+            "\n" +
+            "We established a reusable Figma style guide and component library before developing the interface. From there, we created low- to mid-fidelity wireframes exploring the vehicle's cluster and center display.\n" +
+            "\n" +
+            "The prototype included: ADAS, Home, Maps, Music, Vehicle Controls, HVAC, Tow experience, and other supporting vehicle interactions.\n" +
+            "\n" +
+            "We intentionally designed supporting screens around our primary feature so the predictive sway experience would feel integrated into the larger vehicle ecosystem rather than functioning as an isolated feature.\n" +
+            "\n" +
+            "**Testing and iteration**\n" +
+            "\n" +
+            "We tested our mid-fidelity prototype with users and incorporated feedback into subsequent iterations. We also presented our concepts to GM leaders for critique, using their feedback to refine the interaction model, visual hierarchy, and overall experience.\n" +
+            "\n" +
+            "The final iteration moved into high fidelity, accompanied by a mobile experience demonstrating interactions such as lock/unlock, the message center, and the towing feature.\n" +
+            "\n" +
+            "We also explored the physical relationship between the digital interfaces and the truck itself by working with a 3D-printed dashboard model and assigning functionality to its physical controls.",
         designSolution:
-            "What you actually built or designed as the final output.",
-        keyDecisions: {
-            intro: "The important tradeoffs or choices you made along the way, and why.",
-            bullets: [],
+            "**Sierra Command Center**\n" +
+            "\n" +
+            "Our final concept introduced the Sierra Command Center, a context-aware drive-mode experience designed to organize specialized driving information around the driver's current needs.\n" +
+            "\n" +
+            "For our final presentation to GM leaders, we created a physical 3D-printed dashboard with two iPads representing the center display and driver cluster. This allowed us to demonstrate how the digital experience could work within a physical truck environment.\n" +
+            "\n" +
+            "We built a persona and scenario to demonstrate the experience across the cluster, center display, and mobile app, creating a connected journey rather than presenting the feature as a standalone screen.\n" +
+            "\n" +
+            "**Predictive Tow Mode**\n" +
+            "\n" +
+            "The predictive sway experience lives within the Sierra Command Center under Tow Mode.\n" +
+            "\n" +
+            "The Command Center includes specialized drive modes such as Tow, Adventure, Off-Road, Sport.\n" +
+            "\n" +
+            "Some of these modes are already available in the 2025 GMC Sierra 1500 Denali Ultimate, while our concept expanded the experience around context-aware interactions.\n" +
+            "\n" +
+            "When the truck detects a trailer, Tow Mode can activate after a short countdown, giving the driver an opportunity to cancel. Drivers can also manually activate the mode through Vehicle Controls.\n" +
+            "\n" +
+            "Once activated, the experience provides access to relevant towing information, including tongue weight, sway monitoring, trailer active view, predictive sway alerts, and guidance for responding to potential sway.\n" +
+            "\n" +
+            "Rather than presenting every piece of information at once, the experience prioritizes what the driver needs in the moment.",
+
+            keyDecisions: {
+            intro: "After reviewing the feedback we received, we made several important changes to our original design.",
+            bullets: [
+                {
+                    text: "**Reframing Alert Color:**" +
+                        "\n" +
+                    "Our original interface relied heavily on red to communicate important information. Through critique, we reconsidered this approach because red is typically associated with critical alerts and did not provide sufficient contrast against the black interface.\n" +
+                        "\n" +
+                        "We shifted toward a brown-gold accent, creating stronger contrast while reserving red for situations that require greater urgency.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/redtogold.png",
+                        caption: "Before and after images of the red accent color being changed to brownish-gold.",
+                    },
+                },
+                {
+                    text: "**Increasing Touch-Target Spacing:**" +
+                        "\n" +
+                        "Our initial components were positioned too closely together, increasing the possibility of accidental interactions.\n" +
+                        "\n" +
+                        "We introduced more padding and separation between interactive elements, improving touch-target clarity and supporting users with visual or motor accessibility needs.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/onboarding_quiz.png",
+                        caption: "Before and after images of the padding being increased to reduce accidental touch between two touch targets.",
+                    },
+                },                    {
+                    text: "**Increasing Visual Hierarchy:**" +
+                        "\n" +
+                        "We enlarged key text throughout the interface to improve readability. This became especially important when viewing the interface on our 3D-printed dashboard, where viewing distance more closely resembled the physical driving environment.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/onboarding_quiz.png",
+                        caption: "Before and after images of the text being increased in size.",
+                    },
+                },                    {
+                    text: "**Using Progressive Disclosure:**" +
+                        "\n" +
+                        "One of our most important iterations involved reducing the amount of information presented simultaneously.\n" +
+                        "\n" +
+                        "Our earlier designs placed too much information on the screen, potentially increasing the amount of time a driver would need to look away from the road. We applied progressive disclosure to prioritize essential information and move secondary details into supporting screens.\n" +
+                        "\n" +
+                        "The result was a more focused interface that communicates the most important information quickly while keeping the driver's attention where it belongs: on the road.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/onboarding_quiz.png",
+                        caption: "Before and after images of the wording being reduced on the screen.",
+                    },
+                },
+            ],
         },
         outcome:
             "What changed as a result — metrics, adoption, feedback.",

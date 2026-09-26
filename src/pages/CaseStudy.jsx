@@ -94,11 +94,11 @@ export default function CaseStudy() {
                 </section>
                 <section>
                     <h2>Design Process</h2>
-                    <p>{study.designProcess}</p>
+                    <p><FormattedText text={study.designProcess} /></p>
                 </section>
                 <section>
                     <h2>Design Solution</h2>
-                    <p>{study.designSolution}</p>
+                    <p><FormattedText text={study.designSolution} /></p>
                 </section>
                 <section>
                     <h2>Key Design Decisions</h2>
@@ -111,7 +111,7 @@ export default function CaseStudy() {
                                 <ul className="case-study-list">
                                     {study.keyDecisions.bullets.map((item, i) => (
                                         <li key={i}>
-                                            {item.text}
+                                            <FormattedText text={item.text} />
                                             {item.media && <MediaBlock {...item.media} />}
                                         </li>
                                     ))}
