@@ -4,7 +4,7 @@
 
 .media-block-content {
     width: 100%;
-    max-width: 500px;
+    max-width: 1000px;
     border-radius: var(--radius);
     margin: 0 auto;
     display: block;

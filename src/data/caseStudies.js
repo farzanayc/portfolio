@@ -209,7 +209,7 @@ const caseStudies = [
                         "We introduced more padding and separation between interactive elements, improving touch-target clarity and supporting users with visual or motor accessibility needs.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/onboarding_quiz.png",
+                        src: process.env.PUBLIC_URL + "/images/touchtargets.png",
                         caption: "Before and after images of the padding being increased to reduce accidental touch between two touch targets.",
                     },
                 },                    {
