@@ -1,9 +1,9 @@
 import React from "react";
 import "./MediaBlock.css";
 
-export default function MediaBlock({ type, src, caption, alt }) {
+export default function MediaBlock({ type, src, caption, alt, className }) {
     return (
-        <figure className="media-block">
+        <figure className={`media-block ${className || ""}`}>
             {type === "video" ? (
                 <video
                     className="media-block-content"

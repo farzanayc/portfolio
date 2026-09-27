@@ -112,7 +112,12 @@ export default function CaseStudy() {
                                     {study.keyDecisions.bullets.map((item, i) => (
                                         <li key={i}>
                                             <FormattedText text={item.text} />
-                                            {item.media && <MediaBlock {...item.media} />}
+                                            {item.media && (
+                                                <MediaBlock
+                                                    {...item.media}
+                                                    className={study.slug === "general-motors" ? "key-decision-media" : ""}
+                                            />
+                                                )}
                                         </li>
                                     ))}
                                 </ul>

@@ -4,10 +4,14 @@
 
 .media-block-content {
     width: 100%;
-    max-width: 1000px;
+    max-width: 500px;
     border-radius: var(--radius);
     margin: 0 auto;
     display: block;
+}
+
+.key-decision-media .media-block-content {
+    max-width: 1200px;
 }
 
 .media-block-caption {
