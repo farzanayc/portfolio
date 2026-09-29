@@ -99,6 +99,12 @@ export default function CaseStudy() {
                 <section>
                     <h2>Design Solution</h2>
                     <p><FormattedText text={study.designSolution} /></p>
+                    {study.media?.designSolution && (
+                        <MediaBlock
+                            {...study.media.designSolution}
+                            className={study.slug === "general-motors" ? "gm-use-case-media" : ""}
+                        />
+                    )}
                 </section>
                 <section>
                     <h2>Key Design Decisions</h2>

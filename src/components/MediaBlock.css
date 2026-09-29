@@ -24,3 +24,7 @@
 .case-study-list li {
     margin-bottom: var(--space-2);
 }
+
+.gm-use-case-media .media-block-content {
+    max-width: 1000px;
+}

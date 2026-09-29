@@ -218,7 +218,7 @@ const caseStudies = [
                         "We enlarged key text throughout the interface to improve readability. This became especially important when viewing the interface on our 3D-printed dashboard, where viewing distance more closely resembled the physical driving environment.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/onboarding_quiz.png",
+                        src: process.env.PUBLIC_URL + "/images/largertext.png",
                         caption: "Before and after images of the text being increased in size.",
                     },
                 },                    {
@@ -231,7 +231,7 @@ const caseStudies = [
                         "The result was a more focused interface that communicates the most important information quickly while keeping the driver's attention where it belongs: on the road.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/onboarding_quiz.png",
+                        src: process.env.PUBLIC_URL + "/images/progressivedisclosure.png",
                         caption: "Before and after images of the wording being reduced on the screen.",
                     },
                 },
@@ -241,6 +241,19 @@ const caseStudies = [
             "Our final prototype demonstrated how AI and context-aware interactions could be integrated into the existing truck experience without adding unnecessary complexity. By combining the cluster, center display, mobile app, and physical controls, we created a connected experience that prioritized timely information, intuitive interaction, and driver safety.",
         nextSteps:
             "Although the presentation concluded this project, if I were to continue the work, I would conduct additional usability testing with truck owners in real-world towing scenarios, iterate on the design based on their feedback, and explore how the system could adapt to various driving conditions to best support the drivers. ",
+        media: {
+            overview: {
+                type: "image",
+                src: process.env.PUBLIC_URL + "/images/caregiving.jpg",
+                caption: "A snapshot of a caregiver attending to their loved one.",
+            },
+            designSolution: {
+                type: "image",
+                src: process.env.PUBLIC_URL + "/images/newGMusecase.png",
+                caption: "From trailer detection to arrival, Tow Mode gives Rob the information and guidance he needs at each stage of his journey.",
+            },
+
+        },
         protected: true,
         password: "SI594",
     },
@@ -310,9 +323,9 @@ const caseStudies = [
             bullets: [],
         },
         outcome:
-            "What changed as a result — metrics, adoption, feedback.",
+            "Our final prototype demonstrated how AI and context-aware interactions could be integrated into the existing truck experience without adding unnecessary complexity. By combining the cluster, center display, mobile app, and physical controls, we created a connected experience that prioritized timely information, intuitive interaction, and driver safety.",
         nextSteps:
-            "What's planned next, or what you'd explore if the project continued.",
+            "Although the presentation concluded this project, if I were to continue the work, I would conduct additional usability testing with truck owners in real-world towing scenarios, iterate on the design based on their feedback, and explore how the system could adapt to various driving conditions to best support the drivers. ",
     },
 ];
 
