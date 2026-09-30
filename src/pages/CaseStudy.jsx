@@ -105,6 +105,13 @@ export default function CaseStudy() {
                             className={study.slug === "general-motors" ? "gm-use-case-media" : ""}
                         />
                     )}
+                    {study.media?.prototypeVideos && (
+                        <div className="prototype-carousel">
+                            {study.media.prototypeVideos.map((item, i) => (
+                                <MediaBlock key={i} {...item} clickToPlay />
+                            ))}
+                        </div>
+                    )}
                 </section>
                 <section>
                     <h2>Key Design Decisions</h2>

@@ -252,6 +252,23 @@ const caseStudies = [
                 src: process.env.PUBLIC_URL + "/images/newGMusecase.png",
                 caption: "From trailer detection to arrival, Tow Mode gives Rob the information and guidance he needs at each stage of his journey.",
             },
+            prototypeVideos: [
+                {
+                    type: "video",
+                    src: process.env.PUBLIC_URL + "/images/gmmobilerecording.mp4",
+                    caption: "Mobile Prototype",
+                },
+                {
+                    type: "video",
+                    src: process.env.PUBLIC_URL + "/images/gm-cluster-prototype.mp4",
+                    caption: "Cluster Screen Prototype",
+                },
+                {
+                    type: "video",
+                    src: process.env.PUBLIC_URL + "/images/gm-center-prototype.mp4",
+                    caption: "Center Screen Prototype",
+                },
+            ],
 
         },
         protected: true,
