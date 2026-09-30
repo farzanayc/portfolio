@@ -28,3 +28,69 @@
 .gm-use-case-media .media-block-content {
     max-width: 1000px;
 }
+
+.media-video-wrapper {
+    position: relative;
+}
+
+.media-play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(20, 26, 33, 0.35);
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.15s ease;
+}
+
+.media-play-overlay:hover {
+    background: rgba(20, 26, 33, 0.5);
+}
+
+.media-play-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--color-ink);
+    font-size: 1.3rem;
+    padding-left: 4px;
+}
+
+.prototype-carousel {
+    display: flex;
+    gap: var(--space-2);
+    margin: var(--space-4) 0;
+    align-items: flex-start;
+}
+
+.prototype-carousel .media-block {
+    flex: 1;
+    margin: 0;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transform-origin: center;
+}
+
+.prototype-carousel .media-block:hover {
+    transform: scale(1.15);
+    z-index: 5;
+    position: relative;
+    box-shadow: 0 12px 32px rgba(20, 26, 33, 0.25);
+}
+
+@media (max-width: 700px) {
+    .prototype-carousel {
+        flex-direction: column;
+    }
+    .prototype-carousel .media-block:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
