@@ -10,6 +10,10 @@
     display: block;
 }
 
+.media-block-zoomable {
+    cursor: zoom-in;
+}
+
 .key-decision-media .media-block-content {
     max-width: 1200px;
 }
