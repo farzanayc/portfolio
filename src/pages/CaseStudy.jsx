@@ -95,6 +95,19 @@ export default function CaseStudy() {
                 <section>
                     <h2>Design Process</h2>
                     <p><FormattedText text={study.designProcess} /></p>
+                    {study.media?.styleGuide && (
+                        <MediaBlock
+                            {...study.media.styleGuide}
+                            className={study.slug === "general-motors" ? "gm-style-guide-media" : ""}
+                        />
+                    )}
+                    {study.media?.prototypeVideos && (
+                        <div className="prototype-carousel">
+                            {study.media.prototypeVideos.map((item, i) => (
+                                <MediaBlock key={i} {...item} clickToPlay />
+                            ))}
+                        </div>
+                    )}
                 </section>
                 <section>
                     <h2>Design Solution</h2>
@@ -104,13 +117,6 @@ export default function CaseStudy() {
                             {...study.media.designSolution}
                             className={study.slug === "general-motors" ? "gm-use-case-media" : ""}
                         />
-                    )}
-                    {study.media?.prototypeVideos && (
-                        <div className="prototype-carousel">
-                            {study.media.prototypeVideos.map((item, i) => (
-                                <MediaBlock key={i} {...item} clickToPlay />
-                            ))}
-                        </div>
                     )}
                 </section>
                 <section>
