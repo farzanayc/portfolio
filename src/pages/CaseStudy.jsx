@@ -65,7 +65,17 @@ export default function CaseStudy() {
                 <section>
                     <h2>Overview</h2>
                     <p>{study.overview}</p>
-                    {study.media?.overview && <MediaBlock {...study.media.overview} />}
+                    {study.media?.overview && (
+                        Array.isArray(study.media.overview) ? (
+                            <div className="media-row">
+                                {study.media.overview.map((item, i) => (
+                                    <MediaBlock key={i} {...item} />
+                                ))}
+                            </div>
+                        ) : (
+                            <MediaBlock {...study.media.overview} />
+                        )
+                    )}
                 </section>
                 <section>
                     <h2>Problem</h2>

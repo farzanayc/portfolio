@@ -242,11 +242,18 @@ const caseStudies = [
         nextSteps:
             "Although the presentation concluded this project, if I were to continue the work, I would conduct additional usability testing with truck owners in real-world towing scenarios, iterate on the design based on their feedback, and explore how the system could adapt to various driving conditions to best support the drivers. ",
         media: {
-            overview: {
-                type: "image",
-                src: process.env.PUBLIC_URL + "/images/caregiving.jpg",
-                caption: "A snapshot of a caregiver attending to their loved one.",
-            },
+            overview: [
+                {
+                    type: "image",
+                    src: process.env.PUBLIC_URL + "/images/gmctruckimage.png",
+                    caption: "The GMC Sierra 1500 Denali Ultimate.",
+                },
+                {
+                    type: "image",
+                    src: process.env.PUBLIC_URL + "/images/gmcoverview1.png",
+                    caption: "The inside of the GMC Sierra 1500 Denali Ultimate with our prototype.",
+                },
+                ],
             designSolution: {
                 type: "image",
                 src: process.env.PUBLIC_URL + "/images/newGMusecase.png",
