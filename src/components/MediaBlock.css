@@ -25,6 +25,7 @@
     color: var(--color-muted);
     text-align: center;
 }
+
 .case-study-list li {
     margin-bottom: var(--space-2);
 }
@@ -53,6 +54,7 @@
     cursor: pointer;
     padding: 0;
     transition: background 0.15s ease;
+    z-index: 10;
 }
 
 .media-play-overlay:hover {
@@ -84,11 +86,16 @@
 .prototype-carousel .media-block {
     flex: 1;
     margin: 0;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-    transform-origin: center;
+    padding: var(--space-2);
 }
 
-.prototype-carousel .media-block:hover {
+.prototype-carousel .media-block-content {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transform-origin: center;
+    will-change: transform;
+}
+
+.prototype-carousel .media-block:hover .media-block-content {
     transform: scale(1.15);
     z-index: 5;
     position: relative;
