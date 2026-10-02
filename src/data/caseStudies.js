@@ -272,12 +272,12 @@ const caseStudies = [
                 },
                 {
                     type: "video",
-                    src: process.env.PUBLIC_URL + "/images/gm-cluster-prototype.mp4",
+                    src: process.env.PUBLIC_URL + "/images/gmclustervideo.mp4",
                     caption: "Cluster Screen Prototype",
                 },
                 {
                     type: "video",
-                    src: process.env.PUBLIC_URL + "/images/gm-center-prototype.mp4",
+                    src: process.env.PUBLIC_URL + "/images/gmcenterdisplayvideo.mp4",
                     caption: "Center Screen Prototype",
                 },
             ],

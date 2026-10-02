@@ -128,3 +128,12 @@
         flex-direction: column;
     }
 }
+
+.prototype-carousel .media-block-content {
+    height: 500px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
