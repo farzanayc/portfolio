@@ -9,7 +9,7 @@ const experience = [
         role: "Product Designer and Consultant",
         org: "University of Michigan School of Nursing",
         description:
-            "SHipped",
+            "Designed and led research for CareConnect, a centralized platform helping caregivers find and evaluate Adult Day Services across Southeastern Michigan. Secured a $30K grant to move the project from prototype to a live website.",
     },
     {
         year: "2026",
@@ -23,35 +23,35 @@ const experience = [
         role: "UX Researcher and Consultant",
         org: "Reveal Global Consulting",
         description:
-            "Lead a team of designers on a consulting project to optimize a synthetic data generation product through mixed methods research.,"
+            "Led a team of designers in a consulting project with Reveal Global Consulting, using mixed-methods research to optimize a synthetic data generation product and present design recommendations to stakeholders.",
     },
     {
         year: "2024",
         role: "UX Designer",
         org: "Michigan Ross Business Tech Innovation Jam",
         description:
-            "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
+            "Collaborated with 3 business students and 1 designer to design Eatifi, a personalized nutrition app for people managing diabetes and pre-diabetes. Presented our product to a panel of judges and earned a LinkedIn badge recognizing our participation.",
     },
   {
     year: "2024",
     role: "UX Researcher and Designer",
     org: "Michigan Open UX Associate Program",
     description:
-      "Own end-to-end design for the passenger app, leading a team of two designers across research, flows, and design systems.",
+      "Completed a UX research and design associate program with the University of Michigan Information and Technology Services, strengthening foundational skills in user research methods, such as card sorting, interaction design, and prototyping ahead of graduate school.",
   },
   {
     year: "2023",
     role: "UX Researcher and Designer",
     org: "Michigan Open UX Fellowship",
     description:
-      "Designed the expense-approval and reporting tools used by finance teams at 200+ companies.",
+      "Completed a UX research and design fellowship where I co-led a project designing an app to help students reduce food waste by tracking grocery expiration dates, suggesting allergen-aware recipes, and facilitating food donations to low-income and unhoused communities.",
   },
     {
         year: "2022-Present",
         role: "Medical Assistant",
         org: "University of Michigan Rogel Cancer Center",
         description:
-            "Designed the expense-approval and reporting tools used by finance teams at 200+ companies.",
+            "Worked hands-on with medical devices and MiChart, identifying recurring usability issues through daily interactions with patients and clinical workflows. These experiences showed me how fragmented systems and device failures can directly impact the safety, efficiency, and quality of patient care.",
     },
   {
     year: "2020 — 2021",
