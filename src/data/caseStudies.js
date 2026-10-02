@@ -254,6 +254,18 @@ const caseStudies = [
                     caption: "The inside of the GMC Sierra 1500 Denali Ultimate with our prototype.",
                 },
                 ],
+            designSolutionIntro: [
+                {
+                    type: "image",
+                    src: process.env.PUBLIC_URL + "/images/steeringwheelfunctionality.png",
+                    caption: "3D Steering Wheel Functionality",
+                },
+                {
+                    type: "image",
+                    src: process.env.PUBLIC_URL + "/images/centerdisplayfunctionality.png",
+                    caption: "3D Center Display Functionality",
+                },
+            ],
             designSolution: {
                 type: "image",
                 src: process.env.PUBLIC_URL + "/images/newGMusecase.png",

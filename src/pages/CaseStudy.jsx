@@ -122,6 +122,13 @@ export default function CaseStudy() {
                 <section>
                     <h2>Design Solution</h2>
                     <p><FormattedText text={study.designSolution} /></p>
+                    {study.media?.designSolutionIntro && (
+                        <div className="media-row">
+                            {study.media.designSolutionIntro.map((item, i) => (
+                                <MediaBlock key={i} {...item} />
+                            ))}
+                        </div>
+                    )}
                     {study.media?.designSolution && (
                         <MediaBlock
                             {...study.media.designSolution}
