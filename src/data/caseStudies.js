@@ -351,7 +351,7 @@ const caseStudies = [
                     text: "Public & Private Knots: Explored different levels of visibility and access to determine how public and private communities could function within Braid.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/onboarding_quiz.png",
+                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
                         caption: "Before and after images of the onboarding quiz removed from the homepage.",
                     },
                 },
@@ -359,7 +359,7 @@ const caseStudies = [
                     text: "Membership & Invitations: Designed flows for joining a Knot, accepting or rejecting members, and inviting other Braiders to participate.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/aboutpage.png",
+                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
                         caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
                     },
                 },
@@ -367,7 +367,7 @@ const caseStudies = [
                     text: "Admin Structure: Considered the appropriate number of administrators and their responsibilities for a Version 0.1 community feature.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/ads_full_name.png",
+                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
                         caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
                     },
                 },
@@ -375,7 +375,7 @@ const caseStudies = [
                     text: "Group Discovery: Explored using tags on public Knots to help Braiders understand a community’s focus and discover conversations relevant to their interests.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/dropdown_filter.png",
+                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
                         caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
                     },
                 },
@@ -383,7 +383,7 @@ const caseStudies = [
                     text: "Braid’s Existing Ecosystem: Considered how Knots would work with Braid’s existing account and authentication structure while keeping the experience consistent with the broader platform.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/aboutpage.png",
+                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
                         caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
                     },
                 },
@@ -391,7 +391,7 @@ const caseStudies = [
                     text: "Shared Component Library: Created reusable cards, buttons, library cover pages, and Knots components, contributing to a shared design system that the entire team could use.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/ads_full_name.png",
+                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
                         caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
                     },
                 },
@@ -399,7 +399,7 @@ const caseStudies = [
                     text: "Naming: “Knots”: The name Knots was intentionally connected to Braid’s identity, representing smaller connections that come together within the larger Braid community.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/dropdown_filter.png",
+                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
                         caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
                     },
                 },
