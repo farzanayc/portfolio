@@ -87,7 +87,7 @@ export default function CaseStudy() {
                     {study.researchInsights.bullets.length > 0 && (
                         <ul className="case-study-list">
                             {study.researchInsights.bullets.map((item, i) => (
-                                <li key={i}>{item}</li>
+                                <li key={i}><FormattedText text={item} /></li>
                             ))}
                         </ul>
                     )}
@@ -96,7 +96,7 @@ export default function CaseStudy() {
                             <p className="case-study-subheading">{study.researchInsights.findingsIntro}</p>
                             <ul className="case-study-list">
                                 {study.researchInsights.findingsBullets.map((item, i) => (
-                                    <li key={i}>{item}</li>
+                                    <li key={i}><FormattedText text={item} /></li>
                                 ))}
                             </ul>
                         </>
@@ -105,6 +105,7 @@ export default function CaseStudy() {
                 <section>
                     <h2>Design Process</h2>
                     <p><FormattedText text={study.designProcess} /></p>
+                    {study.media?.designProcess && <MediaBlock {...study.media.designProcess} />}
                     {study.media?.styleGuide && (
                         <MediaBlock
                             {...study.media.styleGuide}

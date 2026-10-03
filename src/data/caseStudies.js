@@ -296,44 +296,142 @@ const caseStudies = [
 
         },
         protected: true,
-        password: "SI594",
+        password: "generalmotors",
     },
     {
         slug: "Braid",
         title: "Braid",
         subtitle: "Designing version 1.0 of groups feature for Braid website",
-        year: "2024",
+        year: "2026",
         role: "UX Researcher and Designer",
-        tools: "Figma, Zoom, Otter.ai, Slack",
+        tools: "Figma, Miro, Zoom, Otter.ai, Slack",
         duration: "14 weeks",
         outcomeShort: "Implementation for use by multiple university courses.",
         team: "3 designers, 1 PM, 4 developers, 2 researchers ",
         image: process.env.PUBLIC_URL + "/images/braid-mockup.png",
         featured: false,
         overview:
-            "A feature that places meaningful conversations at your fingertips.",
+            "Braid is an open-source vocational storytelling community developed at the University of Michigan, connecting students, faculty, and staff through shared knowledge and lived experiences. The Groups feature, “Knots,” creates smaller communities within Braid for more personal connection, discussion, and story sharing.",
         problem:
-            "What was broken, painful, or unaddressed before this project.",
+            "Braid is a storytelling community, so creating a way to build smaller communities is significant to the goal of fostering deeper connections, knowledge sharing, and collaboration among people with shared interests and experiences. \n" +
+            "The challenge was to determine how groups should be structured within Braid, including how users could create, discover, and participate in groups while defining the differences between public and private communities. \n",
         researchInsights: {
-            intro: "Your regular paragraph text here.",
-            bullets: [],
-            findingsIntro: "",
+            intro: "I began by looking at how existing community platforms, including Facebook Groups, structure group creation, membership, privacy, and administration. I compared these patterns to Braid’s goals to determine what would make sense for an initial version of Knots.\n" +
+                "\n" +
+                "This research raised several key questions:",
+            bullets: [
+                "**Membership:** How should users join a Knot, and who should be able to accept, reject, or invite members?",
+                "**Administration:** How many admins should a Knot have in Version 0.1, and what responsibilities should they have?",
+                "**Access:** Who should be able to discover and access Knots? Should users need a Braid account to participate?",
+                "**Invitations:** How should users be invited to private or public Knots?",
+                "**Discovery:** Should public Knots use tags or categories to help Braiders understand what each community is about?",
+                "**Privacy:** What should distinguish a public Knot from a private Knot, and how should those differences affect membership and visibility?",
+            ],
+            findingsIntro: "These questions helped shape the initial information architecture and interaction model for Knots, while keeping the scope appropriate for a Version 0.1 feature.",
             findingsBullets: [],
         },
         designProcess:
-            "How you moved from insights to concepts — sketches, iterations, testing.",
+            "I began by developing the information architecture for Knots, mapping how users could discover, create, join, and interact with communities. I researched existing group-based platforms, including Facebook Groups, to compare approaches to membership, privacy, invitations, administration, and group discovery.\n" +
+            "\n" +
+            "I explored key product decisions such as public vs. private Knots, member approval and rejection, invitations, admin roles, account access, and tags for public Knots. I also considered how these interactions would fit within Braid’s existing authentication and community structure.\n" +
+            "\n" +
+            "Throughout the process, I met with my team weekly to share progress and receive feedback. I used this feedback to continuously iterate on my designs and refine the experience.\n" +
+            "\n" +
+            "In addition to designing Knots, I contributed to a shared component library for the team, creating reusable cards, buttons, library cover pages, and other components. I incorporated my Knots components into the library so the team could reuse and build upon them across the project.",
         designSolution:
-            "What you actually built or designed as the final output.",
+            "I designed Knots as a smaller community layer within Braid, giving Braiders a dedicated space to connect around shared interests, experiences, and conversations.\n" +
+            "\n" +
+            "The Version 0.1 experience establishes a framework for creating, discovering, joining, and managing Knots, with considerations for both public and private communities. The designs also explore member invitations, approval workflows, administrative roles, and tags to help users understand what public Knots are about.\n" +
+            "\n" +
+            "The Knots components were also designed as reusable elements within Braid’s shared component library, allowing the broader team to maintain consistency as the platform continues to develop.",
         keyDecisions: {
             intro: "The important tradeoffs or choices you made along the way, and why.",
-            bullets: [],
+            bullets: [
+                {
+                    text: "Public & Private Knots: Explored different levels of visibility and access to determine how public and private communities could function within Braid.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/onboarding_quiz.png",
+                        caption: "Before and after images of the onboarding quiz removed from the homepage.",
+                    },
+                },
+                {
+                    text: "Membership & Invitations: Designed flows for joining a Knot, accepting or rejecting members, and inviting other Braiders to participate.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/aboutpage.png",
+                        caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
+                    },
+                },
+                {
+                    text: "Admin Structure: Considered the appropriate number of administrators and their responsibilities for a Version 0.1 community feature.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/ads_full_name.png",
+                        caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
+                    },
+                },
+                {
+                    text: "Group Discovery: Explored using tags on public Knots to help Braiders understand a community’s focus and discover conversations relevant to their interests.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/dropdown_filter.png",
+                        caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
+                    },
+                },
+                {
+                    text: "Braid’s Existing Ecosystem: Considered how Knots would work with Braid’s existing account and authentication structure while keeping the experience consistent with the broader platform.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/aboutpage.png",
+                        caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
+                    },
+                },
+                {
+                    text: "Shared Component Library: Created reusable cards, buttons, library cover pages, and Knots components, contributing to a shared design system that the entire team could use.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/ads_full_name.png",
+                        caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
+                    },
+                },
+                {
+                    text: "Naming: “Knots”: The name Knots was intentionally connected to Braid’s identity, representing smaller connections that come together within the larger Braid community.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/dropdown_filter.png",
+                        caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
+                    },
+                },
+            ],
         },
         outcome:
-            "What changed as a result — metrics, adoption, feedback.",
+            "I developed the Version 0.1 UX framework for Knots, including its information architecture, membership model, public/private structure, invitation flows, and initial group interactions.\n" +
+            "I also contributed reusable components to Braid’s shared design library, helping establish a more consistent foundation for the team’s future designs. Knots is currently in development to be used by schools and universities, including Carnegie Mellon University. These contributions will allow current and future Braiders to share their stories, perspectives, and experiences while building meaningful connections within their communities.\n",
         nextSteps:
-            "What's planned next, or what you'd explore if the project continued.",
+            "As Knots is incorporated into the Braid structure, the next step would be to test the proposed experience with Braiders to understand how users create, discover, join, and participate in communities.\n" +
+            "Future iterations could use this feedback to refine membership and invitation flows, public/private group behavior, admin permissions, and group discovery, while continuing to expand the shared component library as new patterns emerge.\n",
+        media: {
+            overview: [
+                {
+                    type: "image",
+                    src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
+                    caption: "Braid Library Coverpage.",
+                },
+                {
+                    type: "image",
+                    src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
+                    caption: "Braid Library Coverpage",
+                },
+            ],
+            designProcess: {
+                type: "image",
+                src: process.env.PUBLIC_URL + "/images/braidinfoarch.png",
+                caption: "Braid V1.0 Information Architecture",
+            },
+        },
         protected: true,
-        password: "braid2024",
+        password: "braid",
     },
     {
         slug: "MFit",
@@ -370,7 +468,7 @@ const caseStudies = [
         nextSteps:
             "Although the presentation concluded this project, if I were to continue the work, I would conduct additional usability testing with truck owners in real-world towing scenarios, iterate on the design based on their feedback, and explore how the system could adapt to various driving conditions to best support the drivers. ",
         protected: true,
-        password: "mfit2023",
+        password: "mfit",
     },
 ];
 
