@@ -150,11 +150,23 @@ export default function CaseStudy() {
                                         <li key={i}>
                                             <FormattedText text={item.text} />
                                             {item.media && (
-                                                <MediaBlock
-                                                    {...item.media}
-                                                    className={study.slug === "general-motors" ? "key-decision-media" : ""}
-                                            />
-                                                )}
+                                                Array.isArray(item.media) ? (
+                                                    <div className="media-row">
+                                                        {item.media.map((m, j) => (
+                                                            <MediaBlock
+                                                                key={j}
+                                                                {...m}
+                                                                className={study.slug === "general-motors" ? "key-decision-media" : ""}
+                                                            />
+                                                        ))}
+                                                    </div>
+                                                ) : (
+                                                    <MediaBlock
+                                                        {...item.media}
+                                                        className={study.slug === "general-motors" ? "key-decision-media" : ""}
+                                                    />
+                                                )
+                                            )}
                                         </li>
                                     ))}
                                 </ul>
