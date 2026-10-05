@@ -446,7 +446,7 @@ const caseStudies = [
         media: {
             outcome: {
                     type: "image",
-                    src: process.env.PUBLIC_URL + "/images/braiddesignsfinal.png",
+                    src: process.env.PUBLIC_URL + "/images/braidfinaldesigns.png",
                     caption: "Braid Library Coverpage.",
                 },
             designProcess: {
