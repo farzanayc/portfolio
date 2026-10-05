@@ -137,3 +137,32 @@
     margin: 0 auto;
     display: block;
 }
+
+.braid-flow-media .media-block-content {
+    max-width: 1400px;
+}
+
+.braid-flow-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: var(--space-4) 0;
+    padding-bottom: var(--space-2);
+    border-radius: var(--radius);
+    scrollbar-width: thin;
+}
+
+.braid-flow-scroll .media-block-content {
+    max-width: none;
+    width: auto;
+    height: 1000px;
+    margin: 0;
+}
+
+.braid-flow-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.braid-flow-scroll::-webkit-scrollbar-thumb {
+    background: var(--color-line);
+    border-radius: 4px;
+}

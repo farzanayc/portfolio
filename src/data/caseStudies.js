@@ -368,6 +368,11 @@ const caseStudies = [
                             src: process.env.PUBLIC_URL + "/images/braidinvitation2.png",
                             caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
                         },
+                        {
+                            type: "image",
+                            src: process.env.PUBLIC_URL + "/images/braidshareknots.png",
+                            caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
+                        },
 
                     ],
                 },
@@ -381,42 +386,54 @@ const caseStudies = [
                 },
                 {
                     text: "**Group Discovery:** Explored using tags on public Knots to help Braiders understand a community’s focus and discover conversations relevant to their interests.",
-                    media: [
-                        {
+                    media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/braidtagscard.png",
+                        src: process.env.PUBLIC_URL + "/images/braidstorycard.png",
                         caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
                     },
-                        {
-                            type: "image",
-                            src: process.env.PUBLIC_URL + "/images/braidindependenttags.png",
-                            caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
-                        },
-                        ],
                 },
                 {
                     text: "**Braid’s Existing Ecosystem:** Considered how Knots would work with Braid’s existing account and authentication structure while keeping the experience consistent with the broader platform.",
                     media: {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/braidinfoarch.png",
+                        src: process.env.PUBLIC_URL + "/images/braidinfoarchexplained.png",
                         caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
                     },
                 },
                 {
                     text: "**Shared Component Library:** Created reusable cards, buttons, library cover pages, and Knots components, contributing to a shared design system that the entire team could use.",
-                    media: {
+                    media: [
+                        {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
+                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover_content.png",
                         caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
                     },
+                        {
+                            type: "image",
+                            src: process.env.PUBLIC_URL + "/images/braidcomponents.png",
+                            caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
+                        },
+                        ],
                 },
                 {
                     text: "**Naming: “Knots”:** The name Knots was intentionally connected to Braid’s identity, representing smaller connections that come together within the larger Braid community.",
-                    media: {
+                    media: [
+                        {
                         type: "image",
-                        src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
+                        src: process.env.PUBLIC_URL + "/images/braidknotideas.png",
                         caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
                     },
+                        {
+                            type: "image",
+                            src: process.env.PUBLIC_URL + "/images/braidresearch.png",
+                            caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
+                        },
+                        {
+                            type: "image",
+                            src: process.env.PUBLIC_URL + "/images/braidknotsketches.png",
+                            caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
+                        },
+                        ],
                 },
             ],
         },
@@ -427,18 +444,11 @@ const caseStudies = [
             "As Knots is incorporated into the Braid structure, the next step would be to test the proposed experience with Braiders to understand how users create, discover, join, and participate in communities.\n" +
             "Future iterations could use this feedback to refine membership and invitation flows, public/private group behavior, admin permissions, and group discovery, while continuing to expand the shared component library as new patterns emerge.\n",
         media: {
-            overview: [
-                {
+            outcome: {
                     type: "image",
-                    src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
+                    src: process.env.PUBLIC_URL + "/images/braiddesignsfinal.png",
                     caption: "Braid Library Coverpage.",
                 },
-                {
-                    type: "image",
-                    src: process.env.PUBLIC_URL + "/images/braidlibrarycover.png",
-                    caption: "Braid Library Coverpage",
-                },
-            ],
             designProcess: {
                 type: "image",
                 src: process.env.PUBLIC_URL + "/images/braidinfoarch.png",
