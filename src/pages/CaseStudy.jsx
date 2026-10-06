@@ -5,6 +5,7 @@ import PasswordGate from "../components/PasswordGate";
 import "./CaseStudy.css";
 import MediaBlock from "../components/MediaBlock";
 import FormattedText from "../components/FormattedText";
+import VideoCarousel from "../components/VideoCarousel";
 
 export default function CaseStudy() {
     const { slug } = useParams();
@@ -124,6 +125,9 @@ export default function CaseStudy() {
                                     {...study.media.designSolution}
                                     className={study.slug === "general-motors" ? "gm-use-case-media" : ""}
                                 />
+                            )}
+                            {study.media?.designSolutionVideos && (
+                                <VideoCarousel items={study.media.designSolutionVideos} />
                             )}
                         </section>
                         <section>
