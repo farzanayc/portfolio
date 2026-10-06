@@ -1,12 +1,20 @@
 import React from "react";
 
-// Supports **bold**, *italic*, and ***bold italic*** inside a string.
-// Usage: <FormattedText text="This is **bold**, this is *italic*, and this is ***both***." />
 export default function FormattedText({ text }) {
-    const parts = text.split(/(\*\*\*.*?\*\*\*|\*\*.*?\*\*|\*.*?\*)/g);
+    if (!text) return null;
+
+    const parts = text.split(/(\*\*\*.*?\*\*\*|\*\*.*?\*\*|\*.*?\*|\[.*?\]\(.*?\))/g);
     return (
         <>
             {parts.map((part, i) => {
+                const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
+                if (linkMatch) {
+                    return (
+                        <a key={i} href={linkMatch[2]} target="_blank" rel="noreferrer">
+                            {linkMatch[1]}
+                        </a>
+                    );
+                }
                 if (part.startsWith("***") && part.endsWith("***")) {
                     return (
                         <strong key={i}>

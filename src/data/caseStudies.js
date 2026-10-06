@@ -479,27 +479,45 @@ const caseStudies = [
         image: process.env.PUBLIC_URL + "/images/mfit-mockup.png",
         featured: false,
         overview:
-            "One or two sentences summarizing the project at a glance.",
+            "MFit is a student-centered fitness platform designed to help University of Michigan students overcome barriers to staying active. The app combines personalized fitness recommendations, campus resource discovery, progress tracking, and gamification to make wellness more accessible and motivating. To see a more detailed case study on our Medium page, please visit: [MFit Medium Article](https://medium.com/@si582group4/designing-mfit-a-student-centric-fitness-platform-for-uofm-376de1fcfd0a).",
         problem:
-            "What was broken, painful, or unaddressed before this project.",
+            "Students often struggle to maintain an active lifestyle while balancing academics, social commitments, and busy schedules. Our research found that students faced limited awareness of campus fitness resources, lack of motivation, and frustration with overly complex or impersonal fitness apps. We explored how a centralized, student-focused platform could make fitness easier to access while encouraging consistent engagement.",
         researchInsights: {
-            intro: "Your regular paragraph text here.",
-            bullets: [],
-            findingsIntro: "",
-            findingsBullets: [],
+            intro: "We conducted semi-structured interviews with eight participants to understand students’ fitness habits, motivations, and barriers. We identified recurring needs around flexibility, motivation, resource awareness, simplicity, and social accountability.",
+            bullets: [
+                "Students needed flexible fitness options that could fit around busy academic schedules.",
+                "Stress relief and social accountability were major motivators for staying active.",
+                "Many students were unaware of available campus fitness resources or found them difficult to access.",
+                "Existing fitness apps were often perceived as overly complicated or insufficiently personalized.",
+                "Students expressed interest in gamification and community features to stay motivated."
+            ],
+            findingsIntro: "These insights directly informed the features and structure of MFit.",
+            findingsBullets: [
+                "Flexible workouts and daily challenges supported students with limited time.",
+                "Event discovery connected students with campus fitness classes and wellness opportunities.",
+                "Badges, leaderboards, challenges, and progress tracking added motivational elements.",
+                "Streamlined navigation reduced complexity and made key features easier to find.",
+                "Community features such as virtual workouts and group challenges encouraged social accountability.",
+            ],
         },
         designProcess:
-            "How you moved from insights to concepts — sketches, iterations, testing.",
+            "We translated our research findings into personas, information architecture, user flows, and low-fidelity wireframes. Initial concepts were sketched by hand before being translated into Figma. We then conducted usability testing with six University of Michigan students, evaluating key flows including adding events to a calendar, completing the Fitmatch quiz, and joining a virtual workout. Findings from testing informed multiple design iterations, followed by visual design and high-fidelity prototyping.",
         designSolution:
-            "What you actually built or designed as the final output.",
+            "The final MFit prototype brought together personalized workouts, campus fitness and event discovery, progress tracking, community engagement, and motivational features within a streamlined mobile experience. Key features included the Fitmatch quiz, virtual workouts, event scheduling, gym discovery, challenges, badges, leaderboards, and a community feed.",
         keyDecisions: {
-            intro: "The important tradeoffs or choices you made along the way, and why.",
-            bullets: [],
+            intro: "Usability testing revealed several opportunities to simplify navigation and make motivational features more accessible.",
+            bullets: [
+                { text: "Moved the Fitmatch quiz to the homepage to make personalized recommendations easier to access." },
+                { text: "Removed the hamburger menu to reduce navigation confusion and improve discoverability." },
+                { text: "Improved event confirmation messaging with larger, more prominent labeling." },
+                { text: "Added community features such as challenges, a feed, and blog content to support motivation and engagement." },
+                { text: "Used a consistent visual system aligned with University of Michigan branding while prioritizing readability and accessibility." },
+            ],
         },
         outcome:
-            "Our final prototype demonstrated how AI and context-aware interactions could be integrated into the existing truck experience without adding unnecessary complexity. By combining the cluster, center display, mobile app, and physical controls, we created a connected experience that prioritized timely information, intuitive interaction, and driver safety.",
+            "The final high-fidelity prototype demonstrated how a student-centered fitness platform could combine personalized recommendations, campus resources, progress tracking, and social motivation in one experience. The design was approved as a high-fidelity app concept, providing a foundation for future development.",
         nextSteps:
-            "Although the presentation concluded this project, if I were to continue the work, I would conduct additional usability testing with truck owners in real-world towing scenarios, iterate on the design based on their feedback, and explore how the system could adapt to various driving conditions to best support the drivers. ",
+            "If I were to continue the work, I would recruit a broader range of students, including users with disabilities and varying levels of technical experience, for additional usability testing. I would also explore accessibility and data privacy earlier in the design process and further evaluate how MFit could support long-term engagement.",
         protected: true,
         password: "mfit",
     },

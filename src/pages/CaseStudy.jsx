@@ -65,7 +65,7 @@ export default function CaseStudy() {
                     <div className="case-study-body">
                         <section>
                             <h2>Overview</h2>
-                            <p>{study.overview}</p>
+                            <p><FormattedText text={study.overview} /></p>
                         </section>
                         <section>
                             <h2>Problem</h2>

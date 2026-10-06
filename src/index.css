@@ -60,6 +60,24 @@ a {
   text-decoration: none;
 }
 
+.case-study-body a {
+    color: var(--color-teal);
+    text-decoration: underline;
+    text-decoration-color: rgba(31, 111, 99, 0.4);
+    text-underline-offset: 2px;
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.case-study-body a:hover {
+    color: var(--color-ink);
+    text-decoration-color: var(--color-ink);
+}
+
+.case-study-body a:active {
+    color: var(--color-amber);
+    text-decoration-color: var(--color-amber);
+}
+
 ul {
   list-style: none;
   margin: 0;
