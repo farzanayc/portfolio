@@ -479,9 +479,11 @@ const caseStudies = [
         image: process.env.PUBLIC_URL + "/images/mfit-mockup.png",
         featured: false,
         overview:
-            "MFit is a student-centered fitness platform designed to help University of Michigan students overcome barriers to staying active. The app combines personalized fitness recommendations, campus resource discovery, progress tracking, and gamification to make wellness more accessible and motivating. To see a more detailed case study on our Medium page, please visit: [MFit Medium Article](https://medium.com/@si582group4/designing-mfit-a-student-centric-fitness-platform-for-uofm-376de1fcfd0a).",
+            "MFit is a student-centered fitness platform designed to help University of Michigan students overcome barriers to staying active. The app combines personalized fitness recommendations, campus resource discovery, progress tracking, and gamification to make wellness more accessible and motivating. To see a more detailed case study on our Medium page, please visit: [MFit Medium Article](https://medium.com/@si582group4/designing-mfit-a-student-centric-fitness-platform-for-uofm-376de1fcfd0a). To access the Figma prototype, please visit: [Figma Prototype](https://www.figma.com/proto/cYlqFq8Got1ZnmdWYkfPiX/582--Unifit?node-id=1929-2952&t=8B6xdiVWc7MhKGjh-1)",
         problem:
-            "Students often struggle to maintain an active lifestyle while balancing academics, social commitments, and busy schedules. Our research found that students faced limited awareness of campus fitness resources, lack of motivation, and frustration with overly complex or impersonal fitness apps. We explored how a centralized, student-focused platform could make fitness easier to access while encouraging consistent engagement.",
+            "Students often struggle to maintain an active lifestyle while balancing academics, social commitments, and busy schedules. Our research found that students faced limited awareness of campus fitness resources, lack of motivation, and frustration with overly complex or impersonal fitness apps. We explored how a centralized, student-focused platform could make fitness easier to access while encouraging consistent engagement.\n" +
+            "\n" +
+            "***How might we help students sustain a healthy lifestyle by improving access to physical wellness resources while keeping them motivated by tracking progress?***",
         researchInsights: {
             intro: "We conducted semi-structured interviews with eight participants to understand students’ fitness habits, motivations, and barriers. We identified recurring needs around flexibility, motivation, resource awareness, simplicity, and social accountability.",
             bullets: [
@@ -518,6 +520,13 @@ const caseStudies = [
             "The final high-fidelity prototype demonstrated how a student-centered fitness platform could combine personalized recommendations, campus resources, progress tracking, and social motivation in one experience. The design was approved as a high-fidelity app concept, providing a foundation for future development.",
         nextSteps:
             "If I were to continue the work, I would recruit a broader range of students, including users with disabilities and varying levels of technical experience, for additional usability testing. I would also explore accessibility and data privacy earlier in the design process and further evaluate how MFit could support long-term engagement.",
+        media: {
+            overview: {
+                type: "image",
+                src: process.env.PUBLIC_URL + "/images/mfitcoverpage.png",
+                caption: "Mfit Cover page.",
+            },
+        },
         protected: true,
         password: "mfit",
     },

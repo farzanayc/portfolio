@@ -66,6 +66,7 @@ export default function CaseStudy() {
                         <section>
                             <h2>Overview</h2>
                             <p><FormattedText text={study.overview} /></p>
+                            {study.media?.overview && <MediaBlock {...study.media.overview} />}
                         </section>
                         <section>
                             <h2>Problem</h2>
