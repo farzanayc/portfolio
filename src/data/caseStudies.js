@@ -485,21 +485,21 @@ const caseStudies = [
             "\n" +
             "***How might we help students sustain a healthy lifestyle by improving access to physical wellness resources while keeping them motivated by tracking progress?***",
         researchInsights: {
-            intro: "We conducted semi-structured interviews with eight participants to understand students’ fitness habits, motivations, and barriers. We identified recurring needs around flexibility, motivation, resource awareness, simplicity, and social accountability.",
+            intro:"We used a mixed-methods research approach, including surveys, semi-structured interviews, needs assessment, data analysis, affinity mapping, persona development, and usability testing, to understand students’ fitness behaviors, motivations, and barriers. Across our research, we identified recurring needs around flexibility, motivation, resource awareness, personalization, and social accountability.",
             bullets: [
-                "Students needed flexible fitness options that could fit around busy academic schedules.",
-                "Stress relief and social accountability were major motivators for staying active.",
-                "Many students were unaware of available campus fitness resources or found them difficult to access.",
-                "Existing fitness apps were often perceived as overly complicated or insufficiently personalized.",
-                "Students expressed interest in gamification and community features to stay motivated."
+                "Students needed flexible fitness options that could fit around busy academic schedules and varying fitness levels.",
+                "Stress relief, personal goals, and social accountability were key motivators for staying active.",
+                "Students were not always aware of the fitness resources and opportunities available across campus.",
+                "Existing fitness apps could feel overly complex and did not always provide the personalization students wanted.",
+                "Students were interested in gamification, challenges, and social features to make fitness more engaging."
             ],
-            findingsIntro: "These insights directly informed the features and structure of MFit.",
+            findingsIntro: "We synthesized these findings into personas and design requirements, then validated our concepts through usability testing with students. These insights directly informed the features, navigation, and interaction design of MFit.",
             findingsBullets: [
-                "Flexible workouts and daily challenges supported students with limited time.",
-                "Event discovery connected students with campus fitness classes and wellness opportunities.",
-                "Badges, leaderboards, challenges, and progress tracking added motivational elements.",
-                "Streamlined navigation reduced complexity and made key features easier to find.",
-                "Community features such as virtual workouts and group challenges encouraged social accountability.",
+                "Personalized recommendations through the Fitmatch quiz helped students find workouts aligned with their goals and preferences.",
+                "Event and gym discovery made campus fitness resources easier to find and access.",
+                "Badges, challenges, leaderboards, and progress tracking introduced motivational elements.",
+                "Usability testing revealed navigation and discoverability issues, leading us to simplify the interface and surface key features more prominently.",
+                "Virtual workouts, community features, and group challenges supported social accountability and engagement."
             ],
         },
         designProcess:
@@ -509,11 +509,36 @@ const caseStudies = [
         keyDecisions: {
             intro: "Usability testing revealed several opportunities to simplify navigation and make motivational features more accessible.",
             bullets: [
-                { text: "Moved the Fitmatch quiz to the homepage to make personalized recommendations easier to access." },
-                { text: "Removed the hamburger menu to reduce navigation confusion and improve discoverability." },
-                { text: "Improved event confirmation messaging with larger, more prominent labeling." },
-                { text: "Added community features such as challenges, a feed, and blog content to support motivation and engagement." },
-                { text: "Used a consistent visual system aligned with University of Michigan branding while prioritizing readability and accessibility." },
+                { text: "Moved the Fitmatch quiz to the homepage to make personalized recommendations easier to access.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/mfitfitmatchquiz.png",
+                        caption: "Low fidelity and high fidelity images of the Fitmatch quiz being moved to the homepage.",
+                    },
+                },
+                { text: "Removed the hamburger menu to reduce navigation confusion and improve discoverability."
+                },
+                { text: "Improved event confirmation messaging with larger, more prominent labeling.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/mfitclearlabeling.png",
+                        caption: "Low fidelity and high fidelity images of the labeling being larger in text and more visible to users.",
+                    },
+                },
+                { text: "Added community features such as challenges, a feed, and blog content to support motivation and engagement.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/mfitcommunityfeatures.png",
+                        caption: "Low fidelity and high fidelity images of the labeling being larger in text and more visible to users.",
+                    },
+                },
+                { text: "Used a consistent visual system aligned with University of Michigan branding while prioritizing readability and accessibility.",
+                    media: {
+                        type: "image",
+                        src: process.env.PUBLIC_URL + "/images/mfitconsistentvisualsystem.png",
+                        caption: "Before and after images of the onboarding quiz removed from the homepage.",
+                    },
+                },
             ],
         },
         outcome:
@@ -525,6 +550,24 @@ const caseStudies = [
                 type: "image",
                 src: process.env.PUBLIC_URL + "/images/mfitcoverpage.png",
                 caption: "Mfit Cover page.",
+            },
+            designProcessPersonas: [
+            {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/mfitpersona3.jpg",
+            caption: "Mfit Main Persona",
+        },
+            {
+                type: "image",
+                src: process.env.PUBLIC_URL + "/images/mfitpersona4.jpg",
+                caption: "Mfit Secondary Persona",
+            },
+                ],
+                designProcessSitemap:
+            {
+                type: "image",
+                src: process.env.PUBLIC_URL + "/images/mfitsitemap.png",
+                caption: "Mfit Site Map",
             },
         },
         protected: true,

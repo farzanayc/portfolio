@@ -96,7 +96,27 @@ export default function CaseStudy() {
                         <section>
                             <h2>Design Process</h2>
                             <p><FormattedText text={study.designProcess} /></p>
-                            {study.media?.designProcess && <MediaBlock {...study.media.designProcess} />}
+                            {study.media?.designProcessPersonas && (
+                                <div className="media-row">
+                                    {study.media.designProcessPersonas.map((item, i) => (
+                                        <MediaBlock key={i} {...item} className="mfit-persona-media" />
+                                    ))}
+                                </div>
+                            )}
+                            {study.media?.designProcessSitemap && (
+                                <MediaBlock {...study.media.designProcessSitemap} className="mfit-sitemap-media" />
+                            )}
+                            {study.media?.designProcess && (
+                                Array.isArray(study.media.designProcess) ? (
+                                    <div className="media-row">
+                                        {study.media.designProcess.map((item, i) => (
+                                            <MediaBlock key={i} {...item} />
+                                        ))}
+                                    </div>
+                                ) : (
+                                    <MediaBlock {...study.media.designProcess} />
+                                )
+                            )}
                             {study.media?.styleGuide && (
                                 <MediaBlock
                                     {...study.media.styleGuide}
@@ -150,14 +170,14 @@ export default function CaseStudy() {
                                                                     <MediaBlock
                                                                         key={j}
                                                                         {...m}
-                                                                        className={study.slug === "general-motors" ? "key-decision-media" : ""}
+                                                                        className={study.slug === "general-motors" || study.slug === "MFit" ? "key-decision-media" : ""}
                                                                     />
                                                                 ))}
                                                             </div>
                                                         ) : (
                                                             <MediaBlock
                                                                 {...item.media}
-                                                                className={study.slug === "general-motors" ? "key-decision-media" : ""}
+                                                                className={study.slug === "general-motors" || study.slug === "MFit" ? "key-decision-media" : ""}
                                                             />
                                                         )
                                                     )}
