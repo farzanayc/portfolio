@@ -5,7 +5,7 @@ const site = {
   email: "farzanac@umich.edu",
   linkedinUrl: "https://www.linkedin.com/in/farzanayc",
   // Host your resume PDF anywhere (Google Drive "share" link, Dropbox, your own domain, etc.)
-  resumeUrl: "https://docs.google.com/document/d/1AvqW-3KznMcqAw1XC03kUM9yskWbj_EpkKjCRzzS3Pg/edit?usp=sharing",
+  resumeUrl: "https://docs.google.com/document/d/1qlW4k-Qy3Bbg2FFMTHQKqJU2fMaEdjnRsXjhsG4JvVg/edit?tab=t.0",
 };
 
 export default site;
