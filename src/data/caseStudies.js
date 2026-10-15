@@ -296,7 +296,7 @@ const caseStudies = [
 
         },
         protected: true,
-        password: "generalmotors",
+        password: "genmot26",
     },
     {
         slug: "a-new-feature-to-connect-storytellers",
