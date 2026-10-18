@@ -463,8 +463,6 @@ const caseStudies = [
                 { heading: "Joining a Knot", src: process.env.PUBLIC_URL + "/images/braidvideojoinknot.mp4", caption: "Walking through a user viewing a knot before joining." },
             ],
         },
-        protected: true,
-        password: "braider",
     },
     {
         slug: "MFit-university-of-michigan-students-get-active",
