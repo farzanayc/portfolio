@@ -301,7 +301,7 @@ const caseStudies = [
     {
         slug: "a-new-feature-to-connect-storytellers",
         title: "A New Feature to Connect Storytellers",
-        subtitle: "Braid: Designing version 1.0 of groups feature for Braid website",
+        subtitle: "Braid: Designing version 0.1 of groups feature for Braid website",
         year: "2026",
         role: "UX Researcher and Designer",
         tools: "Figma, Miro, Zoom, Otter.ai, Slack",
@@ -345,14 +345,14 @@ const caseStudies = [
             "\n" +
             "The Knots components were also designed as reusable elements within Braid’s shared component library, allowing the broader team to maintain consistency as the platform continues to develop.",
         keyDecisions: {
-            intro: "The important tradeoffs or choices you made along the way, and why.",
+            intro: "Below are 7 key decisions I made for my knots feature.",
             bullets: [
                 {
                     text: "**Public & Private Knots:** Explored different levels of visibility and access to determine how public and private communities could function within Braid.",
                     media: {
                         type: "image",
                         src: process.env.PUBLIC_URL + "/images/braidpublicvsprivate.png",
-                        caption: "Before and after images of the onboarding quiz removed from the homepage.",
+                        caption: "Image shows the public and private options on the 'create a knot' page",
                     },
                 },
                 {
@@ -361,17 +361,17 @@ const caseStudies = [
                         {
                         type: "image",
                         src: process.env.PUBLIC_URL + "/images/braidinvitation1.png",
-                        caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
+                        caption: "Image shows the Figma flow of accepting and rejecting members for a knot.",
                     },
                         {
                             type: "image",
                             src: process.env.PUBLIC_URL + "/images/braidinvitation2.png",
-                            caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
+                            caption: "Image shows an up-close view of the accept or reject knot invitation notification.",
                         },
                         {
                             type: "image",
                             src: process.env.PUBLIC_URL + "/images/braidshareknots.png",
-                            caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
+                            caption: "Image shows the share knot invitation pop-up.",
                         },
 
                     ],
@@ -381,7 +381,7 @@ const caseStudies = [
                     media: {
                         type: "image",
                         src: process.env.PUBLIC_URL + "/images/braidadmintotal.png",
-                        caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
+                        caption: "Image of 'create a knot' page being revised.",
                     },
                 },
                 {
@@ -389,7 +389,7 @@ const caseStudies = [
                     media: {
                         type: "image",
                         src: process.env.PUBLIC_URL + "/images/braidstorycard.png",
-                        caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
+                        caption: "Image of Braid story card with tags to show the focus is on books.",
                     },
                 },
                 {
@@ -397,7 +397,7 @@ const caseStudies = [
                     media: {
                         type: "image",
                         src: process.env.PUBLIC_URL + "/images/braidinfoarchexplained.png",
-                        caption: "Before and after images of the navigation headers after education and about sections were merged inro one about page.",
+                        caption: "Image of Braid's information architecture showing the home page along with the broader headings.",
                     },
                 },
                 {
@@ -406,12 +406,12 @@ const caseStudies = [
                         {
                         type: "image",
                         src: process.env.PUBLIC_URL + "/images/braidlibrarycover_content.png",
-                        caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
+                        caption: "Top: Braid's library cover page. Bottom: Inside Braid's library under the 'getting started' section.",
                     },
                         {
                             type: "image",
                             src: process.env.PUBLIC_URL + "/images/braidcomponents.png",
-                            caption: "Before and after images of ADS being changed to Adult Day Services for less confusion.",
+                            caption: "Image shows the Figma components I created for the library and the final prototype.",
                         },
                         ],
                 },
@@ -421,17 +421,17 @@ const caseStudies = [
                         {
                         type: "image",
                         src: process.env.PUBLIC_URL + "/images/braidknotideas.png",
-                        caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
+                        caption: "Figma knot and library cover page inspiration.",
                     },
                         {
                             type: "image",
                             src: process.env.PUBLIC_URL + "/images/braidresearch.png",
-                            caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
+                            caption: "Image of an in-depth analysis of the groups feature.",
                         },
                         {
                             type: "image",
                             src: process.env.PUBLIC_URL + "/images/braidknotsketches.png",
-                            caption: "Before and after images of the filters being changed from static checkboxes to an expandable dropdown menu.",
+                            caption: "Image of Figma sketches I created for the library and the final prototype.",
                         },
                         ],
                 },
@@ -452,7 +452,7 @@ const caseStudies = [
             designProcess: {
                 type: "image",
                 src: process.env.PUBLIC_URL + "/images/braidinfoarch.png",
-                caption: "Braid V1.0 Information Architecture",
+                caption: "Braid V0.1 Information Architecture",
             },
             designSolutionVideos: [
                 { heading: "Navigating to Knots", src: process.env.PUBLIC_URL + "/images/braidvideomultipleentries.mp4", caption: "Walking through the multiple ways to navigate to Knots." },
